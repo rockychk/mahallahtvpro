@@ -1,1 +1,1424 @@
-(function(_0x239104,_0x5a37ff){var _0x20a748=_0x1208,_0x1a320d=_0x239104();while(!![]){try{var _0xa3834e=-parseInt(_0x20a748(0x196))/0x1*(parseInt(_0x20a748(0x204))/0x2)+parseInt(_0x20a748(0x14d))/0x3+parseInt(_0x20a748(0x113))/0x4+-parseInt(_0x20a748(0x111))/0x5+parseInt(_0x20a748(0x149))/0x6*(parseInt(_0x20a748(0x23f))/0x7)+parseInt(_0x20a748(0x8e))/0x8+parseInt(_0x20a748(0x128))/0x9*(parseInt(_0x20a748(0x10a))/0xa);if(_0xa3834e===_0x5a37ff)break;else _0x1a320d['push'](_0x1a320d['shift']());}catch(_0x3e3298){_0x1a320d['push'](_0x1a320d['shift']());}}}(_0x4349,0x8aa90),(function(){'use strict';var _0x51bd62=_0x1208;function _0x3ddba6(_0x8bbd6e){var _0x267a72=_0x1208;if(typeof showToast===_0x267a72(0x156)){showToast(_0x8bbd6e);return;}var _0x218b60=document['getElementById'](_0x267a72(0x104));if(!_0x218b60)return;_0x218b60[_0x267a72(0x96)]=_0x8bbd6e,_0x218b60[_0x267a72(0x173)]['display']=_0x267a72(0xc2),_0x218b60[_0x267a72(0x173)][_0x267a72(0x169)]='1',clearTimeout(_0x218b60['_t']),_0x218b60['_t']=setTimeout(function(){var _0x5f21e7=_0x267a72;_0x218b60[_0x5f21e7(0x173)][_0x5f21e7(0x203)]=_0x5f21e7(0x1d8),_0x218b60[_0x5f21e7(0x173)][_0x5f21e7(0x169)]='0',setTimeout(function(){var _0x2e6dbd=_0x5f21e7;_0x218b60[_0x2e6dbd(0x173)][_0x2e6dbd(0xcb)]=_0x2e6dbd(0xea),_0x218b60[_0x2e6dbd(0x173)][_0x2e6dbd(0x203)]='';},0x190);},0x9c4);}var _0x5cdeda=_0x51bd62(0x11e);function _0x54b9f1(){var _0x451e43=_0x51bd62;if(document[_0x451e43(0x91)]('rc-modal-style'))return;var _0x43b678=document[_0x451e43(0x1f5)](_0x451e43(0x173));_0x43b678['id']=_0x451e43(0x1b7),_0x43b678[_0x451e43(0x96)]=[_0x451e43(0x253),_0x451e43(0x215),'background:rgba(0,0,0,.72);z-index:2000;',_0x451e43(0x1e3),_0x451e43(0x20e),'-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;','}',_0x451e43(0xe3),'background:#1a1a2e;border:1px\x20solid\x20rgba(255,255,255,.15);',_0x451e43(0x12a),_0x451e43(0xd0),_0x451e43(0x133),_0x451e43(0x18e),'}',_0x451e43(0x1b8),'font-size:1.05rem;font-weight:700;color:#FFD700;',_0x451e43(0x24c),_0x451e43(0x1a1),'}',_0x451e43(0x177),_0x451e43(0x1f7),'border:1px\x20solid\x20rgba(255,255,255,.2);border-radius:8px;',_0x451e43(0x1ee),_0x451e43(0x22e),'}','#rc-mini-modal\x20.rc-input:focus{border-color:#F5A623;}',_0x451e43(0x12e),_0x451e43(0x1cd),_0x451e43(0x15a),_0x451e43(0x1e3),'gap:8px;margin-top:18px;-webkit-flex-wrap:wrap;flex-wrap:wrap;',_0x451e43(0x1b1),'}',_0x451e43(0xc1),_0x451e43(0x1eb),_0x451e43(0x24f),_0x451e43(0x210),'}',_0x451e43(0x1d9),_0x451e43(0x1e2),_0x451e43(0x1a5),'border-radius:8px;cursor:pointer;font-family:Poppins,sans-serif;font-size:.9rem;','}',_0x451e43(0x197),_0x451e43(0x137),_0x451e43(0x1e3),_0x451e43(0x20e),'gap:10px;padding:10px\x2012px;border-radius:8px;cursor:pointer;',_0x451e43(0x10b),'-webkit-transition:background\x20.15s;transition:background\x20.15s;','}','#rc-mini-modal\x20.rc-option-list\x20li:hover{background:rgba(255,255,255,.1);}',_0x451e43(0x254),'background:rgba(245,166,35,.2);border-color:#F5A623;','}','#rc-mini-modal\x20.rc-option-list\x20.rc-key{',_0x451e43(0x216),'background:rgba(255,255,255,.15);color:#FFD700;',_0x451e43(0x1c1),_0x451e43(0x1ff),'}',_0x451e43(0x150),_0x451e43(0x1e3),_0x451e43(0x20e),_0x451e43(0x193),'}',_0x451e43(0x8a),_0x451e43(0x188),'}',_0x451e43(0x10e),_0x451e43(0x259),_0x451e43(0x1e3),_0x451e43(0xa0),'}',_0x451e43(0x20f),_0x451e43(0x17b),_0x451e43(0x1ae),'-webkit-transition:border-color\x20.15s,-webkit-transform\x20.1s;transition:border-color\x20.15s,transform\x20.1s;','}',_0x451e43(0x233),'border-color:#fff;-webkit-transform:scale(1.2);transform:scale(1.2);','}',_0x451e43(0x21f),_0x451e43(0x1e3),'-webkit-flex-wrap:wrap;flex-wrap:wrap;gap:8px;','}',_0x451e43(0xda),_0x451e43(0x185),_0x451e43(0x8c),'}',_0x451e43(0x1fb),_0x451e43(0x98),'position:absolute;top:2px;left:2px;','background:rgba(0,0,0,.7);color:#FFD700;',_0x451e43(0xd3),'}',_0x451e43(0x116),_0x451e43(0x9e),_0x451e43(0x1e3),'-webkit-flex-wrap:wrap;flex-wrap:wrap;gap:8px;','}',_0x451e43(0xde),'border-radius:8px;padding:10px\x2014px;cursor:pointer;','border:2px\x20solid\x20transparent;font-size:.82rem;font-weight:600;','-webkit-transition:border-color\x20.15s,-webkit-transform\x20.1s;transition:border-color\x20.15s,transform\x20.1s;',_0x451e43(0xe4),'}',_0x451e43(0x97)][_0x451e43(0xa9)](''),document[_0x451e43(0x174)][_0x451e43(0x246)](_0x43b678);}function _0x28daf8(_0x5cb63c,_0x1c9991,_0x360dec){var _0x55ed89=_0x51bd62;_0x4cb8ae(),_0x54b9f1();var _0x31388b=document['createElement'](_0x55ed89(0x20a));_0x31388b['id']='rc-mini-modal-overlay';var _0x3c1f30=document['createElement'](_0x55ed89(0x20a));_0x3c1f30['id']=_0x5cdeda;var _0x5c9a95=document['createElement']('h3');return _0x5c9a95[_0x55ed89(0x96)]=_0x5cb63c,_0x3c1f30[_0x55ed89(0x246)](_0x5c9a95),_0x1c9991(_0x3c1f30),_0x31388b[_0x55ed89(0x246)](_0x3c1f30),document[_0x55ed89(0x1de)]['appendChild'](_0x31388b),_0x31388b['addEventListener'](_0x55ed89(0x180),function(_0x357c33){var _0xd5d849=_0x55ed89;if(_0x357c33[_0xd5d849(0xf8)]===_0x31388b){_0x4cb8ae();if(_0x360dec)_0x360dec();}}),_0x31388b[_0x55ed89(0x207)]=function(_0x255552){var _0x2cfe5d=_0x55ed89;if(_0x255552['key']===_0x2cfe5d(0x20b)){_0x4cb8ae();if(_0x360dec)_0x360dec();}},window[_0x55ed89(0x107)]('keydown',_0x31388b[_0x55ed89(0x207)]),setTimeout(function(){var _0x26bcc6=_0x55ed89,_0x399411=_0x3c1f30[_0x26bcc6(0x95)]('input:not([type=range]):not([type=checkbox]):not([type=file]),\x20textarea');if(_0x399411)_0x399411[_0x26bcc6(0x234)]();},0x3c),_0x3c1f30;}function _0x4cb8ae(){var _0x547642=_0x51bd62,_0x14ba12=document[_0x547642(0x91)](_0x547642(0x17d));if(!_0x14ba12)return;if(_0x14ba12[_0x547642(0x207)])window[_0x547642(0x1e9)](_0x547642(0x8b),_0x14ba12[_0x547642(0x207)]);document[_0x547642(0x1de)][_0x547642(0x238)](_0x14ba12);}function _0x88fe8d(_0x2abfc1,_0x593e19,_0x14d615){var _0x11de49=_0x51bd62,_0x1eae64=document['createElement'](_0x11de49(0x20a));_0x1eae64[_0x11de49(0x11f)]='rc-btn-row';var _0x5d6176=document[_0x11de49(0x1f5)](_0x11de49(0x1b5));_0x5d6176[_0x11de49(0x11f)]=_0x11de49(0x161),_0x5d6176[_0x11de49(0x96)]=_0x11de49(0x175),_0x5d6176[_0x11de49(0x221)]=_0x4cb8ae;var _0x3fee27=document[_0x11de49(0x1f5)](_0x11de49(0x1b5));_0x3fee27['className']=_0x11de49(0x24d),_0x3fee27[_0x11de49(0x96)]=_0x14d615||_0x11de49(0xe8),_0x3fee27[_0x11de49(0x221)]=function(){_0x593e19(),_0x4cb8ae();},_0x1eae64[_0x11de49(0x246)](_0x5d6176),_0x1eae64[_0x11de49(0x246)](_0x3fee27),_0x2abfc1[_0x11de49(0x246)](_0x1eae64);}function _0x47c5ac(_0xfa40e8,_0x2f9038,_0x1b6a89,_0x4b24fb){_0x28daf8(_0xfa40e8,function(_0x1e1743){var _0x51dced=_0x1208,_0x2ee800=document['createElement'](_0x2f9038?_0x51dced(0x200):_0x51dced(0x24e));_0x2ee800[_0x51dced(0x11f)]='rc-input';if(!_0x2f9038)_0x2ee800[_0x51dced(0x13e)]='text';_0x2ee800[_0x51dced(0x1a7)]=_0x1b6a89||'',_0x1e1743[_0x51dced(0x246)](_0x2ee800),_0x88fe8d(_0x1e1743,function(){var _0x328d1a=_0x51dced,_0x3133e7=_0x2ee800[_0x328d1a(0x25c)][_0x328d1a(0xdd)]();if(_0x3133e7)_0x4b24fb(_0x3133e7);}),_0x2ee800[_0x51dced(0x107)](_0x51dced(0x8b),function(_0x2990a1){var _0x33d3e3=_0x51dced;if(!_0x2f9038&&_0x2990a1[_0x33d3e3(0x171)]===_0x33d3e3(0x18c)){_0x2990a1[_0x33d3e3(0x1c6)]();var _0x239771=_0x2ee800[_0x33d3e3(0x25c)][_0x33d3e3(0xdd)]();_0x239771&&(_0x4b24fb(_0x239771),_0x4cb8ae());}});});}function _0x5c82d4(_0x29725c,_0x3aac5f,_0x56b8d6,_0x5b015a,_0x1d64a8){_0x28daf8(_0x29725c,function(_0x213d52){var _0x20d2e5=_0x1208,_0x553500=document[_0x20d2e5(0x1f5)](_0x20d2e5(0x24e));_0x553500[_0x20d2e5(0x11f)]='rc-input',_0x553500[_0x20d2e5(0x13e)]=_0x20d2e5(0xe7),_0x553500['placeholder']='Masukkan\x20angka'+(_0x5b015a?'\x20('+_0x5b015a+')':''),_0x553500[_0x20d2e5(0x255)]=_0x3aac5f,_0x553500[_0x20d2e5(0x112)]=_0x56b8d6,_0x553500['value']='',_0x213d52[_0x20d2e5(0x246)](_0x553500);var _0xf6033e=document['createElement']('p');_0xf6033e['className']=_0x20d2e5(0x24b),_0xf6033e[_0x20d2e5(0x96)]=_0x20d2e5(0x120)+_0x3aac5f+_0x20d2e5(0x1e8)+_0x56b8d6+(_0x5b015a?'\x20'+_0x5b015a:''),_0x213d52['appendChild'](_0xf6033e),_0x88fe8d(_0x213d52,function(){var _0x541127=_0x20d2e5,_0x124201=parseFloat(_0x553500[_0x541127(0x25c)]);if(!isNaN(_0x124201))_0x1d64a8(_0x124201);}),_0x553500[_0x20d2e5(0x107)](_0x20d2e5(0x8b),function(_0x19ef1b){var _0x190125=_0x20d2e5;if(_0x19ef1b[_0x190125(0x171)]===_0x190125(0x18c)){_0x19ef1b[_0x190125(0x1c6)]();var _0x1e4fc2=parseFloat(_0x553500[_0x190125(0x25c)]);!isNaN(_0x1e4fc2)&&(_0x1d64a8(_0x1e4fc2),_0x4cb8ae());}});});}function _0x12f1c4(_0x12e184,_0xb2ad39,_0x5081a5,_0x2bacf8){_0x28daf8(_0x12e184,function(_0x1b469e){var _0x3bc4f3=_0x1208,_0x565814=document['createElement']('p');_0x565814[_0x3bc4f3(0x11f)]=_0x3bc4f3(0x24b),_0x565814[_0x3bc4f3(0x96)]=_0x3bc4f3(0xab),_0x565814[_0x3bc4f3(0x173)][_0x3bc4f3(0x1f8)]=_0x3bc4f3(0x11b),_0x1b469e['appendChild'](_0x565814);var _0x194dcb=document[_0x3bc4f3(0x1f5)]('ul');_0x194dcb[_0x3bc4f3(0x11f)]=_0x3bc4f3(0x167),_0xb2ad39[_0x3bc4f3(0x247)](function(_0x23a02b,_0x25c4f7){var _0x2fce91=_0x3bc4f3,_0x67a7f3=document[_0x2fce91(0x1f5)]('li'),_0x3d49ef=_0x25c4f7+0x1;if(_0x23a02b[_0x2fce91(0x171)]!==undefined)_0x3d49ef=_0x23a02b['key'];if(_0x5081a5){var _0x2161b3=_0x5081a5();_0x2161b3!==null&&_0x2161b3!==undefined&&(_0x2161b3===_0x23a02b[_0x2fce91(0x25c)]||_0x2161b3===_0x23a02b[_0x2fce91(0x220)])&&(_0x67a7f3[_0x2fce91(0x11f)]=_0x2fce91(0x1fe));}var _0x19a3ac=document[_0x2fce91(0x1f5)](_0x2fce91(0x1d0));_0x19a3ac[_0x2fce91(0x11f)]=_0x2fce91(0x164),_0x19a3ac[_0x2fce91(0x96)]=_0x3d49ef;var _0x3c9e0b=document[_0x2fce91(0x1f5)](_0x2fce91(0x1d0));_0x3c9e0b[_0x2fce91(0x96)]=_0x23a02b[_0x2fce91(0x220)],_0x67a7f3[_0x2fce91(0x246)](_0x19a3ac),_0x67a7f3['appendChild'](_0x3c9e0b),_0x194dcb['appendChild'](_0x67a7f3),_0x67a7f3[_0x2fce91(0x107)](_0x2fce91(0x180),function(){var _0x53d363=_0x2fce91;_0x2bacf8(_0x23a02b[_0x53d363(0x25c)]!==undefined?_0x23a02b['value']:_0x23a02b['label']),_0x4cb8ae();});}),_0x1b469e['appendChild'](_0x194dcb);var _0x590a3a=function(_0x5ec2c1){var _0x20bd38=_0x3bc4f3;if(/^\d$/['test'](_0x5ec2c1[_0x20bd38(0x171)])){var _0x10d891=parseInt(_0x5ec2c1[_0x20bd38(0x171)],0xa),_0x17f04d=null;_0xb2ad39['forEach'](function(_0xd51096){var _0x2df194=_0x20bd38,_0x58dc95=_0xd51096['key']!==undefined?_0xd51096[_0x2df194(0x171)]:_0xb2ad39[_0x2df194(0xb0)](_0xd51096)+0x1;if(_0x58dc95===_0x10d891)_0x17f04d=_0xd51096;}),_0x17f04d&&(_0x5ec2c1[_0x20bd38(0x1c6)](),_0x5ec2c1['stopPropagation'](),_0x2bacf8(_0x17f04d[_0x20bd38(0x25c)]!==undefined?_0x17f04d['value']:_0x17f04d['label']),_0x4cb8ae(),window['removeEventListener'](_0x20bd38(0x8b),_0x590a3a,!![]));}};window[_0x3bc4f3(0x107)](_0x3bc4f3(0x8b),_0x590a3a,!![]);var _0x2bcdac=document[_0x3bc4f3(0x91)](_0x3bc4f3(0x17d));if(_0x2bcdac){var _0x193306=_0x2bcdac[_0x3bc4f3(0x207)];_0x2bcdac['_keyHandler']=function(_0x122232){var _0x12a501=_0x3bc4f3;if(_0x122232[_0x12a501(0x171)]==='Escape'){window[_0x12a501(0x1e9)](_0x12a501(0x8b),_0x590a3a,!![]);if(_0x193306)_0x193306(_0x122232);}},window[_0x3bc4f3(0x1e9)](_0x3bc4f3(0x8b),_0x193306),window[_0x3bc4f3(0x107)]('keydown',_0x2bcdac['_keyHandler']);}var _0x4749ab=document[_0x3bc4f3(0x1f5)]('div');_0x4749ab[_0x3bc4f3(0x11f)]=_0x3bc4f3(0x1ce);var _0x1b506a=document[_0x3bc4f3(0x1f5)](_0x3bc4f3(0x1b5));_0x1b506a[_0x3bc4f3(0x11f)]='rc-btn-cancel',_0x1b506a[_0x3bc4f3(0x96)]='Batal',_0x1b506a[_0x3bc4f3(0x221)]=function(){var _0x12870e=_0x3bc4f3;window[_0x12870e(0x1e9)]('keydown',_0x590a3a,!![]),_0x4cb8ae();},_0x4749ab[_0x3bc4f3(0x246)](_0x1b506a),_0x1b469e[_0x3bc4f3(0x246)](_0x4749ab);});}function _0x172a46(_0xad3b51,_0x13ad8e,_0x4da93b){_0x28daf8(_0xad3b51,function(_0x5adb02){var _0x2a77f6=_0x1208,_0x16b05e=document[_0x2a77f6(0x91)](_0x13ad8e),_0x10f197=document['getElementById'](_0x4da93b),_0x884626=_0x16b05e?parseInt(_0x16b05e['value'],0xa):0x64,_0x5a62a3=document[_0x2a77f6(0x1f5)](_0x2a77f6(0x20a));_0x5a62a3[_0x2a77f6(0x11f)]=_0x2a77f6(0x228);var _0x26c505=document[_0x2a77f6(0x1f5)](_0x2a77f6(0x1d0));_0x26c505[_0x2a77f6(0x96)]='🔈',_0x26c505[_0x2a77f6(0x173)][_0x2a77f6(0x13b)]=_0x2a77f6(0x1af);var _0x4e2647=document['createElement'](_0x2a77f6(0x24e));_0x4e2647[_0x2a77f6(0x13e)]='range',_0x4e2647[_0x2a77f6(0x11f)]=_0x2a77f6(0x1c2),_0x4e2647['style'][_0x2a77f6(0x11a)]='-webkit-box-flex:1;-webkit-flex:1;flex:1;',_0x4e2647[_0x2a77f6(0x255)]=0x0,_0x4e2647[_0x2a77f6(0x112)]=0x64,_0x4e2647[_0x2a77f6(0x25c)]=_0x884626;var _0x28ff6e=document['createElement'](_0x2a77f6(0x1d0));_0x28ff6e[_0x2a77f6(0x11f)]=_0x2a77f6(0x249),_0x28ff6e[_0x2a77f6(0x96)]=_0x884626+'%',_0x4e2647['addEventListener'](_0x2a77f6(0x24e),function(){_0x28ff6e['textContent']=_0x4e2647['value']+'%';}),_0x5a62a3[_0x2a77f6(0x246)](_0x26c505),_0x5a62a3[_0x2a77f6(0x246)](_0x4e2647),_0x5a62a3['appendChild'](_0x28ff6e),_0x5adb02[_0x2a77f6(0x246)](_0x5a62a3);var _0x36e989=document[_0x2a77f6(0x1f5)]('p');_0x36e989[_0x2a77f6(0x11f)]=_0x2a77f6(0x24b),_0x36e989[_0x2a77f6(0x96)]='◀\x20▶\x20untuk\x20mengatur,\x20lalu\x20Simpan.',_0x5adb02['appendChild'](_0x36e989),_0x88fe8d(_0x5adb02,function(){var _0x242bd3=_0x2a77f6,_0x41f6ee=parseInt(_0x4e2647[_0x242bd3(0x25c)],0xa);_0x16b05e&&(_0x16b05e['value']=_0x41f6ee,_0x16b05e['dispatchEvent'](new Event(_0x242bd3(0x24e),{'bubbles':!![]})));if(_0x10f197)_0x10f197['textContent']=_0x41f6ee+'%';if(typeof setAudioVolume===_0x242bd3(0x156)){var _0x34a408={'vol-pre-adzan':_0x242bd3(0x16b),'vol-adzan-settings':_0x242bd3(0x160),'vol-adzan':_0x242bd3(0x160),'vol-alarm':'alarm'},_0x205f2c=_0x34a408[_0x13ad8e];if(_0x205f2c)setAudioVolume(_0x205f2c,_0x41f6ee);}}),setTimeout(function(){var _0x307f53=_0x2a77f6;_0x4e2647[_0x307f53(0x234)]();},0x3c);});}function _0xc7d480(_0xa8bd3a,_0x5164f7){_0x28daf8(_0xa8bd3a,function(_0x5f5645){var _0x1a185c=_0x1208,_0x2dd610=document['getElementById'](_0x5164f7);if(!_0x2dd610||!_0x2dd610[_0x1a185c(0xaa)][_0x1a185c(0xdd)]()){var _0x4cb315=document[_0x1a185c(0x1f5)]('p');_0x4cb315[_0x1a185c(0x11f)]=_0x1a185c(0x24b),_0x4cb315['style'][_0x1a185c(0x17a)]=_0x1a185c(0xf9),_0x4cb315[_0x1a185c(0x173)]['padding']=_0x1a185c(0x21a),_0x4cb315[_0x1a185c(0x96)]=_0x1a185c(0x202),_0x5f5645[_0x1a185c(0x246)](_0x4cb315);}else{var _0x4e3dee=document['createElement']('div');_0x4e3dee[_0x1a185c(0xaa)]=_0x2dd610[_0x1a185c(0xaa)];var _0x29040b=_0x2dd610[_0x1a185c(0xff)](_0x1a185c(0x1ea));_0x29040b['forEach'](function(_0x258e6a){var _0x497d65=_0x1a185c,_0x4d05a5=document[_0x497d65(0x1f5)](_0x497d65(0x20a));_0x4d05a5[_0x497d65(0x11f)]=_0x258e6a[_0x497d65(0x11f)],_0x4d05a5[_0x497d65(0xaa)]=_0x258e6a['innerHTML'],_0x4d05a5[_0x497d65(0x221)]=function(_0x2c85c2){return function(){_0x2c85c2['click'](),_0x4cb8ae();};}(_0x258e6a),_0x4e3dee['appendChild'](_0x4d05a5);}),_0x5f5645[_0x1a185c(0x246)](_0x4e3dee);}var _0x4cd345=document[_0x1a185c(0x1f5)](_0x1a185c(0x20a));_0x4cd345[_0x1a185c(0x11f)]=_0x1a185c(0x1ce);var _0x52155d=document['createElement']('button');_0x52155d[_0x1a185c(0x11f)]=_0x1a185c(0x161),_0x52155d['textContent']='Tutup',_0x52155d[_0x1a185c(0x221)]=_0x4cb8ae,_0x4cd345['appendChild'](_0x52155d),_0x5f5645[_0x1a185c(0x246)](_0x4cd345);});}function _0x5a5a0c(){var _0x3cba9d=_0x51bd62;_0x28daf8(_0x3cba9d(0xbe),function(_0x1b49e2){var _0x2098cd=_0x3cba9d,_0x40bc68=document[_0x2098cd(0x1f5)]('p');_0x40bc68[_0x2098cd(0x11f)]=_0x2098cd(0x24b),_0x40bc68[_0x2098cd(0x173)][_0x2098cd(0x1f8)]=_0x2098cd(0x11b),_0x40bc68[_0x2098cd(0x96)]='Tekan\x20nomor\x20gambar\x20di\x20remote,\x20atau\x20klik\x20gambar\x20untuk\x20menghapus.',_0x1b49e2[_0x2098cd(0x246)](_0x40bc68);var _0x44952a=document['getElementById'](_0x2098cd(0x166));if(!_0x44952a){_0x1b49e2[_0x2098cd(0xdc)](_0x2098cd(0x135),'<p\x20class=\x22rc-hint\x22>bg-preview-list\x20tidak\x20ditemukan.</p>');return;}var _0x8ba45=_0x44952a[_0x2098cd(0xff)](_0x2098cd(0x1db));if(!_0x8ba45[_0x2098cd(0x225)]){_0x1b49e2[_0x2098cd(0xdc)](_0x2098cd(0x135),_0x2098cd(0xfc));return;}var _0x27b976=document[_0x2098cd(0x1f5)](_0x2098cd(0x20a));_0x27b976[_0x2098cd(0x11f)]=_0x2098cd(0x21d);var _0x3bc610={};for(var _0x339123=0x0;_0x339123<_0x8ba45[_0x2098cd(0x225)];_0x339123++){(function(_0xa60dd,_0x3ba08e){var _0x3f040c=_0x2098cd,_0x291497=document[_0x3f040c(0x1f5)](_0x3f040c(0x20a));_0x291497[_0x3f040c(0x11f)]=_0x3f040c(0xf7);var _0x56ae00=document[_0x3f040c(0x1f5)]('span');_0x56ae00['className']=_0x3f040c(0x217),_0x56ae00[_0x3f040c(0x96)]=String(_0x3ba08e+0x1);var _0x2e8932=_0xa60dd[_0x3f040c(0x95)](_0x3f040c(0x131)),_0x1fa4a2=document[_0x3f040c(0x1f5)](_0x3f040c(0x131));if(_0x2e8932)_0x1fa4a2[_0x3f040c(0x17e)]=_0x2e8932[_0x3f040c(0x17e)];_0x291497[_0x3f040c(0x246)](_0x1fa4a2),_0x291497[_0x3f040c(0x246)](_0x56ae00),_0x27b976[_0x3f040c(0x246)](_0x291497),_0x3bc610[_0x3ba08e+0x1]=_0xa60dd,_0x291497[_0x3f040c(0x107)](_0x3f040c(0x180),function(){var _0x564f13=_0x3f040c,_0x5e886e=_0xa60dd[_0x564f13(0x95)]('.bg-remove');if(_0x5e886e)_0x5e886e[_0x564f13(0x180)]();_0x4cb8ae();});}(_0x8ba45[_0x339123],_0x339123));}_0x1b49e2['appendChild'](_0x27b976);var _0x371f51=function(_0x32ae71){var _0x9d4831=_0x2098cd;if(/^\d$/['test'](_0x32ae71['key'])){var _0x31e440=parseInt(_0x32ae71[_0x9d4831(0x171)],0xa);if(_0x3bc610[_0x31e440]){_0x32ae71[_0x9d4831(0x1c6)](),_0x32ae71['stopPropagation']();var _0xe8035c=_0x3bc610[_0x31e440]['querySelector'](_0x9d4831(0xd6));if(_0xe8035c)_0xe8035c[_0x9d4831(0x180)]();window[_0x9d4831(0x1e9)](_0x9d4831(0x8b),_0x371f51,!![]),_0x4cb8ae();}}};window[_0x2098cd(0x107)](_0x2098cd(0x8b),_0x371f51,!![]);var _0x619a31=document[_0x2098cd(0x1f5)](_0x2098cd(0x20a));_0x619a31[_0x2098cd(0x11f)]=_0x2098cd(0x1ce);var _0x464867=document[_0x2098cd(0x1f5)]('button');_0x464867[_0x2098cd(0x11f)]='rc-btn-cancel',_0x464867[_0x2098cd(0x96)]=_0x2098cd(0x175),_0x464867[_0x2098cd(0x221)]=function(){var _0x3b9953=_0x2098cd;window['removeEventListener'](_0x3b9953(0x8b),_0x371f51,!![]),_0x4cb8ae();},_0x619a31[_0x2098cd(0x246)](_0x464867),_0x1b49e2[_0x2098cd(0x246)](_0x619a31);});}function _0x2f643b(){var _0x383933=_0x51bd62;_0x28daf8(_0x383933(0x11d),function(_0x58fc07){var _0x654a58=_0x383933,_0x4548c0=document['getElementById']('tema-grid');if(!_0x4548c0){_0x58fc07['insertAdjacentHTML'](_0x654a58(0x135),'<p\x20class=\x22rc-hint\x22>tema-grid\x20tidak\x20ditemukan.</p>');return;}var _0x3a9888=document['createElement']('p');_0x3a9888[_0x654a58(0x11f)]=_0x654a58(0x24b),_0x3a9888[_0x654a58(0x173)]['marginBottom']='10px',_0x3a9888[_0x654a58(0x96)]=_0x654a58(0x1b4),_0x58fc07['appendChild'](_0x3a9888);var _0x546c68=document[_0x654a58(0x1f5)](_0x654a58(0x20a));_0x546c68[_0x654a58(0x173)][_0x654a58(0x11a)]=_0x654a58(0x1b9);var _0x1381e1=_0x4548c0[_0x654a58(0xff)](_0x654a58(0x141));_0x1381e1[_0x654a58(0x247)](function(_0x5e798c){var _0x591972=_0x654a58,_0x2afabc=_0x5e798c[_0x591972(0x223)](!![]);_0x2afabc['onclick']=function(_0x39f635){return function(){var _0x2cc8af=_0x1208;_0x39f635[_0x2cc8af(0x180)](),_0x4cb8ae();};}(_0x5e798c),_0x546c68[_0x591972(0x246)](_0x2afabc);}),_0x58fc07[_0x654a58(0x246)](_0x546c68);var _0x554d2d=document[_0x654a58(0x1f5)]('div');_0x554d2d[_0x654a58(0x11f)]='rc-btn-row';var _0x306cbb=document[_0x654a58(0x1f5)](_0x654a58(0x1b5));_0x306cbb[_0x654a58(0x11f)]=_0x654a58(0x161),_0x306cbb[_0x654a58(0x96)]=_0x654a58(0x1d5),_0x306cbb['onclick']=_0x4cb8ae,_0x554d2d[_0x654a58(0x246)](_0x306cbb),_0x58fc07[_0x654a58(0x246)](_0x554d2d);});}function _0x52097e(_0x148c1d,_0xbd562,_0x1d9603){_0x28daf8(_0x148c1d,function(_0x2a07aa){var _0x2d9d54=_0x1208,_0x319835=document[_0x2d9d54(0x95)](_0xbd562);if(!_0x319835){_0x2a07aa[_0x2d9d54(0xdc)]('beforeend',_0x2d9d54(0xb6));return;}var _0x51192a=document[_0x2d9d54(0x1f5)]('p');_0x51192a[_0x2d9d54(0x11f)]='rc-hint',_0x51192a[_0x2d9d54(0x173)][_0x2d9d54(0x1f8)]=_0x2d9d54(0x11b),_0x51192a[_0x2d9d54(0x96)]=_0x2d9d54(0x101),_0x2a07aa[_0x2d9d54(0x246)](_0x51192a);var _0x17f8db=document[_0x2d9d54(0x1f5)]('div');_0x17f8db[_0x2d9d54(0x11f)]='rc-swatch-grid';var _0xc9623e=_0x319835['querySelectorAll']('.color-swatch');_0xc9623e[_0x2d9d54(0x247)](function(_0x27ff0c){var _0x29b5b4=_0x2d9d54,_0x7e282e=_0x27ff0c[_0x29b5b4(0x223)](!![]);_0x7e282e[_0x29b5b4(0x173)]['backgroundColor']=_0x27ff0c['style'][_0x29b5b4(0x1bc)]||getComputedStyle(_0x27ff0c)[_0x29b5b4(0x1bc)],_0x7e282e[_0x29b5b4(0x221)]=function(_0x5f4519){return function(){var _0x3d3daf=_0x1208;_0x5f4519[_0x3d3daf(0x180)](),_0x4cb8ae();};}(_0x27ff0c),_0x17f8db[_0x29b5b4(0x246)](_0x7e282e);}),_0x2a07aa['appendChild'](_0x17f8db);var _0x4b9f5b=document['createElement'](_0x2d9d54(0x20a));_0x4b9f5b['className']='rc-btn-row';var _0x5c882c=document['createElement']('button');_0x5c882c[_0x2d9d54(0x11f)]='rc-btn-cancel',_0x5c882c[_0x2d9d54(0x96)]=_0x2d9d54(0x1d5),_0x5c882c['onclick']=_0x4cb8ae,_0x4b9f5b[_0x2d9d54(0x246)](_0x5c882c),_0x2a07aa['appendChild'](_0x4b9f5b);});}function _0x3a078e(_0x48f87f,_0x2361f1,_0x14f3e8){_0x28daf8(_0x48f87f,function(_0x456948){var _0x102494=_0x1208,_0x4f13ce=document['documentElement'],_0x18fe21=getComputedStyle(_0x4f13ce)[_0x102494(0xcf)](_0x2361f1)[_0x102494(0xdd)](),_0x540a6d=_0x18fe21?Math[_0x102494(0x1a9)](parseFloat(_0x18fe21)*0x64):0x64,_0x2e17be=document[_0x102494(0x1f5)](_0x102494(0x20a));_0x2e17be[_0x102494(0x11f)]=_0x102494(0x228);var _0x1598b5=document[_0x102494(0x1f5)](_0x102494(0x1d0));_0x1598b5[_0x102494(0x96)]='🔆',_0x1598b5[_0x102494(0x173)][_0x102494(0x13b)]=_0x102494(0x1af);var _0x52818b=document[_0x102494(0x1f5)](_0x102494(0x24e));_0x52818b[_0x102494(0x13e)]='range',_0x52818b['style'][_0x102494(0x11a)]='-webkit-box-flex:1;-webkit-flex:1;flex:1;',_0x52818b['min']=0x0,_0x52818b['max']=0x64,_0x52818b[_0x102494(0x25c)]=_0x540a6d;var _0x1902bf=document[_0x102494(0x1f5)]('span');_0x1902bf[_0x102494(0x11f)]='rc-volume-val',_0x1902bf[_0x102494(0x96)]=_0x540a6d+'%',_0x52818b[_0x102494(0x107)]('input',function(){var _0x1d28d1=_0x102494;_0x1902bf[_0x1d28d1(0x96)]=_0x52818b[_0x1d28d1(0x25c)]+'%';}),_0x2e17be[_0x102494(0x246)](_0x1598b5),_0x2e17be[_0x102494(0x246)](_0x52818b),_0x2e17be[_0x102494(0x246)](_0x1902bf),_0x456948['appendChild'](_0x2e17be),_0x88fe8d(_0x456948,function(){var _0x2f4062=_0x102494,_0x34a1f2=parseInt(_0x52818b[_0x2f4062(0x25c)],0xa)/0x64;_0x4f13ce[_0x2f4062(0x173)]['setProperty'](_0x2361f1,_0x34a1f2);if(_0x14f3e8){var _0x547eff=document[_0x2f4062(0x91)](_0x14f3e8);if(_0x547eff)_0x547eff[_0x2f4062(0x25c)]=_0x52818b['value'];}}),setTimeout(function(){var _0x1bc015=_0x102494;_0x52818b[_0x1bc015(0x234)]();},0x3c);});}function _0x3bda32(){var _0x3fed1f=_0x51bd62;_0x28daf8(_0x3fed1f(0xaf),function(_0xa0a29c){var _0x101d58=_0x3fed1f,_0x25be2d=document[_0x101d58(0x91)](_0x101d58(0x17c));if(!_0x25be2d){_0xa0a29c[_0x101d58(0xdc)](_0x101d58(0x135),_0x101d58(0x1f4));return;}var _0x75ac4=document[_0x101d58(0x1f5)]('p');_0x75ac4[_0x101d58(0x11f)]=_0x101d58(0x24b),_0x75ac4['style'][_0x101d58(0x1f8)]='10px',_0x75ac4[_0x101d58(0x96)]=_0x101d58(0x1aa),_0xa0a29c['appendChild'](_0x75ac4);var _0x4243a2=document[_0x101d58(0x1f5)](_0x101d58(0x20a));_0x4243a2['className']=_0x101d58(0xac);var _0x2c569c=_0x25be2d[_0x101d58(0xff)]('[data-tema],\x20.rc-ribbon-tema-item,\x20button,\x20div');if(!_0x2c569c[_0x101d58(0x225)]){var _0x5ed9f1=_0x25be2d[_0x101d58(0x223)](!![]);_0x4243a2[_0x101d58(0x246)](_0x5ed9f1);}else _0x2c569c['forEach'](function(_0x39f6fd){var _0xfc1e24=_0x101d58;if(_0x39f6fd===_0x25be2d)return;var _0x44b502=_0x39f6fd[_0xfc1e24(0x223)](!![]);_0x44b502[_0xfc1e24(0x221)]=function(_0x2d0a6f){return function(){_0x2d0a6f['click'](),_0x4cb8ae();};}(_0x39f6fd),_0x4243a2[_0xfc1e24(0x246)](_0x44b502);});_0xa0a29c[_0x101d58(0x246)](_0x4243a2);var _0x56994f=document['createElement'](_0x101d58(0x20a));_0x56994f[_0x101d58(0x11f)]=_0x101d58(0x1ce);var _0x438cee=document[_0x101d58(0x1f5)](_0x101d58(0x1b5));_0x438cee[_0x101d58(0x11f)]=_0x101d58(0x161),_0x438cee[_0x101d58(0x96)]=_0x101d58(0x1d5),_0x438cee[_0x101d58(0x221)]=_0x4cb8ae,_0x56994f[_0x101d58(0x246)](_0x438cee),_0xa0a29c[_0x101d58(0x246)](_0x56994f);});}function _0x2e4704(){var _0x59db2a=_0x51bd62;_0x28daf8(_0x59db2a(0x122),function(_0x567e82){var _0x294b53=_0x59db2a,_0x3f5a66=document['getElementById'](_0x294b53(0x138)),_0x2d73a5=document[_0x294b53(0x91)](_0x294b53(0x1ca)),_0x191a38=_0x3f5a66?parseInt(_0x3f5a66[_0x294b53(0x25c)],0xa):0x11,_0x21a5c1=document[_0x294b53(0x1f5)](_0x294b53(0x20a));_0x21a5c1[_0x294b53(0x11f)]=_0x294b53(0x228);var _0x4ecca5=document[_0x294b53(0x1f5)](_0x294b53(0x1d0));_0x4ecca5[_0x294b53(0x96)]='A',_0x4ecca5[_0x294b53(0x173)][_0x294b53(0x11a)]='font-size:1.1rem;font-weight:700;';var _0x40ef1c=document[_0x294b53(0x1f5)](_0x294b53(0x24e));_0x40ef1c[_0x294b53(0x13e)]='range',_0x40ef1c[_0x294b53(0x173)][_0x294b53(0x11a)]=_0x294b53(0x188),_0x40ef1c[_0x294b53(0x255)]=0xc,_0x40ef1c[_0x294b53(0x112)]=0x30,_0x40ef1c[_0x294b53(0x25c)]=_0x191a38;var _0x177e82=document[_0x294b53(0x1f5)]('span');_0x177e82[_0x294b53(0x11f)]=_0x294b53(0x249),_0x177e82['textContent']=_0x191a38+'px',_0x40ef1c[_0x294b53(0x107)](_0x294b53(0x24e),function(){var _0x5536ec=_0x294b53;_0x177e82[_0x5536ec(0x96)]=_0x40ef1c[_0x5536ec(0x25c)]+'px';if(typeof previewRibbonFontSize===_0x5536ec(0x156))previewRibbonFontSize(_0x40ef1c[_0x5536ec(0x25c)]);}),_0x21a5c1[_0x294b53(0x246)](_0x4ecca5),_0x21a5c1[_0x294b53(0x246)](_0x40ef1c),_0x21a5c1[_0x294b53(0x246)](_0x177e82),_0x567e82[_0x294b53(0x246)](_0x21a5c1),_0x88fe8d(_0x567e82,function(){var _0x25bb22=_0x294b53,_0x5c62cc=parseInt(_0x40ef1c[_0x25bb22(0x25c)],0xa);_0x3f5a66&&(_0x3f5a66[_0x25bb22(0x25c)]=_0x5c62cc,_0x3f5a66[_0x25bb22(0xa5)](new Event('input',{'bubbles':!![]})));if(_0x2d73a5)_0x2d73a5[_0x25bb22(0x96)]=_0x5c62cc+'px';if(typeof previewRibbonFontSize===_0x25bb22(0x156))previewRibbonFontSize(_0x5c62cc);}),setTimeout(function(){var _0x382172=_0x294b53;_0x40ef1c[_0x382172(0x234)]();},0x3c);});}function _0x314916(_0x1c495e,_0x1ea224,_0x555662,_0x1ac1ec){var _0x4735c8=_0x51bd62,_0x5f5970=document[_0x4735c8(0x91)](_0x1c495e);if(!_0x5f5970){_0x3ddba6('⚠\x20Elemen\x20'+_0x1c495e+'\x20tidak\x20ditemukan');return;}_0x5f5970[_0x4735c8(0x19d)]=!_0x5f5970[_0x4735c8(0x19d)],_0x5f5970['dispatchEvent'](new Event(_0x4735c8(0xed),{'bubbles':!![]}));if(_0x1ac1ec)_0x1ac1ec(_0x5f5970[_0x4735c8(0x19d)]);_0x3ddba6(_0x5f5970[_0x4735c8(0x19d)]?_0x1ea224||'✅\x20Aktif':_0x555662||_0x4735c8(0x22c));}function _0xc8431d(_0x82e5ed){var _0x3f1288=_0x51bd62,_0x48d8c9=document[_0x3f1288(0x91)](_0x82e5ed);if(!_0x48d8c9){_0x3ddba6(_0x3f1288(0x158)+_0x82e5ed+_0x3f1288(0x198));return;}try{_0x48d8c9['click']();}catch(_0x2a6696){_0x3ddba6(_0x3f1288(0x1ef));}}function _0x10c73e(_0x127aad,_0x597604){var _0xdfaafb=_0x51bd62,_0x12af96=document['getElementById'](_0x127aad);if(!_0x12af96){_0x3ddba6(_0xdfaafb(0xc4)+_0x127aad+_0xdfaafb(0x198));return;}_0x12af96[_0xdfaafb(0x25c)]=_0x597604,_0x12af96['dispatchEvent'](new Event('change',{'bubbles':!![]}));}function _0x402fc7(_0x4ba0af){var _0x2ca426=_0x51bd62,_0x30f647=document[_0x2ca426(0x91)](_0x4ba0af);if(!_0x30f647){_0x3ddba6('⚠\x20Elemen\x20'+_0x4ba0af+_0x2ca426(0x198));return;}_0x30f647[_0x2ca426(0x180)]();}function _0xb4af38(_0x246a61){var _0x25b0e8=_0x51bd62,_0x54b82e=document['getElementById'](_0x246a61);if(!_0x54b82e){_0x3ddba6('⚠\x20Select\x20'+_0x246a61+'\x20tidak\x20ditemukan');return;}_0x54b82e[_0x25b0e8(0x234)]();try{if(typeof _0x54b82e[_0x25b0e8(0xc6)]===_0x25b0e8(0x156))_0x54b82e[_0x25b0e8(0xc6)]();else _0x54b82e[_0x25b0e8(0x180)]();}catch(_0x1f0301){_0x54b82e[_0x25b0e8(0x180)]();}}function _0x5ece03(){var _0x4f1b2e=_0x51bd62;if(!window[_0x4f1b2e(0x15d)]||typeof window['RemoteControl']['register']!==_0x4f1b2e(0x156)){setTimeout(_0x5ece03,0xc8);return;}var _0x56cdaa=window[_0x4f1b2e(0x15d)]['register'][_0x4f1b2e(0x125)](window[_0x4f1b2e(0x15d)]);_0x56cdaa('21',_0x4f1b2e(0xb8),function(){var _0x2b41c8=_0x4f1b2e;_0x314916('toggle-dhuha',_0x2b41c8(0x257),_0x2b41c8(0xd8),function(_0x5d6e5e){if(typeof toggleDhuha==='function')toggleDhuha({'checked':_0x5d6e5e});});}),_0x56cdaa('22','Toggle\x20Mode\x20Jum\x27at',function(){var _0x8bcca9=_0x4f1b2e;_0x314916(_0x8bcca9(0xf6),_0x8bcca9(0x25f),_0x8bcca9(0x22d),function(_0x349560){var _0x2161b0=_0x8bcca9;if(typeof toggleModeJumat===_0x2161b0(0x156))toggleModeJumat({'checked':_0x349560});});}),_0x56cdaa('23',_0x4f1b2e(0x1dc),function(){var _0x1215c9=_0x4f1b2e;_0x314916(_0x1215c9(0x214),_0x1215c9(0xe2),_0x1215c9(0x19f),function(_0x3d4b1c){var _0x35e3b1=_0x1215c9;if(typeof toggleImsak===_0x35e3b1(0x156))toggleImsak({'checked':_0x3d4b1c});});}),_0x56cdaa('24',_0x4f1b2e(0x1cc),function(){var _0xc8db96=_0x4f1b2e;_0x314916('toggle-syuruq',_0xc8db96(0x241),_0xc8db96(0xd7),function(_0x5c79a8){var _0x2ef54f=_0xc8db96;if(typeof toggleSyuruq===_0x2ef54f(0x156))toggleSyuruq({'checked':_0x5c79a8});});}),_0x56cdaa('31',_0x4f1b2e(0x127),function(){var _0x57a57a=_0x4f1b2e,_0x49e5d2=document[_0x57a57a(0x91)]('settings-rt-text');_0x28daf8(_0x57a57a(0x16e),function(_0x426102){var _0x7d835f=_0x57a57a,_0x51b035=document['createElement'](_0x7d835f(0x200));_0x51b035[_0x7d835f(0x11f)]=_0x7d835f(0x1c2),_0x51b035[_0x7d835f(0x13d)]=0x4,_0x51b035[_0x7d835f(0x1a7)]=_0x7d835f(0x11c),_0x51b035[_0x7d835f(0x25c)]=_0x49e5d2?_0x49e5d2['value']:'',_0x426102[_0x7d835f(0x246)](_0x51b035),_0x88fe8d(_0x426102,function(){var _0x43b739=_0x7d835f;if(_0x49e5d2)_0x49e5d2['value']=_0x51b035[_0x43b739(0x25c)];if(typeof saveRunningText===_0x43b739(0x156))saveRunningText();else _0x3ddba6(_0x43b739(0x208));});});}),_0x56cdaa('32',_0x4f1b2e(0xcd),function(){var _0x3b4f69=_0x4f1b2e,_0x1f77ee=document[_0x3b4f69(0x91)](_0x3b4f69(0xd4)),_0x33d7aa=document['getElementById'](_0x3b4f69(0xa1)),_0x3950df=_0x1f77ee?parseInt(_0x1f77ee['value'],0xa):0x3c;_0x28daf8(_0x3b4f69(0x148),function(_0x13d393){var _0xa8717c=_0x3b4f69,_0x2031be=document[_0xa8717c(0x1f5)](_0xa8717c(0x20a));_0x2031be['className']=_0xa8717c(0x228);var _0x3ed097=document[_0xa8717c(0x1f5)](_0xa8717c(0x1d0));_0x3ed097[_0xa8717c(0x96)]='🚀',_0x3ed097[_0xa8717c(0x173)]['fontSize']='1rem';var _0x222d4f=document[_0xa8717c(0x1f5)](_0xa8717c(0x24e));_0x222d4f[_0xa8717c(0x13e)]=_0xa8717c(0x1a3),_0x222d4f[_0xa8717c(0x173)]['cssText']=_0xa8717c(0x188),_0x222d4f['min']=0x14,_0x222d4f[_0xa8717c(0x112)]=0xc8,_0x222d4f[_0xa8717c(0x25c)]=_0x3950df;var _0x113fdf=document[_0xa8717c(0x1f5)]('span');_0x113fdf[_0xa8717c(0x11f)]=_0xa8717c(0x249),_0x113fdf[_0xa8717c(0x96)]=_0x3950df+'s',_0x222d4f[_0xa8717c(0x107)]('input',function(){var _0x3c7148=_0xa8717c;_0x113fdf[_0x3c7148(0x96)]=_0x222d4f[_0x3c7148(0x25c)]+'s';}),_0x2031be[_0xa8717c(0x246)](_0x3ed097),_0x2031be[_0xa8717c(0x246)](_0x222d4f),_0x2031be['appendChild'](_0x113fdf),_0x13d393[_0xa8717c(0x246)](_0x2031be);var _0xc256a7=document[_0xa8717c(0x1f5)]('p');_0xc256a7['className']=_0xa8717c(0x24b),_0xc256a7['textContent']=_0xa8717c(0x20d),_0x13d393[_0xa8717c(0x246)](_0xc256a7),_0x88fe8d(_0x13d393,function(){var _0x4092cc=_0xa8717c;_0x1f77ee&&(_0x1f77ee[_0x4092cc(0x25c)]=_0x222d4f['value'],_0x1f77ee[_0x4092cc(0xa5)](new Event(_0x4092cc(0x24e),{'bubbles':!![]})));if(_0x33d7aa)_0x33d7aa[_0x4092cc(0x96)]=_0x222d4f[_0x4092cc(0x25c)];if(typeof saveRunningText==='function')saveRunningText();}),setTimeout(function(){_0x222d4f['focus']();},0x3c);});}),_0x56cdaa('41','Upload\x20Gambar\x20Background',function(){_0xc8431d('upload-bg');}),_0x56cdaa('42','Hapus\x20Gambar\x20Background',function(){_0x5a5a0c();}),_0x56cdaa('43',_0x4f1b2e(0x16d),function(){var _0x24fbc6=_0x4f1b2e;_0x5c82d4(_0x24fbc6(0xb3),0x2,0x78,'detik',function(_0x5212c5){var _0x483a59=_0x24fbc6,_0x52035f=document['getElementById'](_0x483a59(0x186));if(_0x52035f)_0x52035f['value']=_0x5212c5;_0x3ddba6(_0x483a59(0x248)+_0x5212c5+_0x483a59(0x1ab));});}),_0x56cdaa('44',_0x4f1b2e(0x9d),function(){var _0x117328=_0x4f1b2e;_0x12f1c4('🎬\x20Transisi\x20Background',[{'key':0x1,'label':_0x117328(0x195),'value':_0x117328(0x1a2)},{'key':0x2,'label':_0x117328(0x15f),'value':_0x117328(0x93)},{'key':0x3,'label':_0x117328(0x1e6),'value':'slide-right'},{'key':0x4,'label':'Zoom\x20In','value':_0x117328(0x12f)},{'key':0x5,'label':'Zoom\x20Out','value':_0x117328(0x16c)},{'key':0x6,'label':'Flip','value':_0x117328(0x163)}],function(){var _0x2cf68e=document['getElementById']('settings-bg-transition');return _0x2cf68e?_0x2cf68e['value']:null;},function(_0x550f70){var _0x85e366=_0x117328;_0x10c73e('settings-bg-transition',_0x550f70);if(typeof saveBgSettings===_0x85e366(0x156))saveBgSettings();else _0x3ddba6(_0x85e366(0x9f)+_0x550f70);});}),_0x56cdaa('51','Daftar\x20Audio\x20Pre-Adzan',function(){var _0x5e63b6=_0x4f1b2e;_0xc7d480(_0x5e63b6(0x1c7),_0x5e63b6(0xec));}),_0x56cdaa(_0x4f1b2e(0xb2),_0x4f1b2e(0x230),function(){var _0x4d127c=_0x4f1b2e;_0xc8431d(_0x4d127c(0x244));}),_0x56cdaa(_0x4f1b2e(0x17f),'Pilih\x20Sumber\x20Audio\x20Pre-Adzan',function(){var _0x53957a=_0x4f1b2e;_0x12f1c4('🎚️\x20Sumber\x20Audio\x20Pre-Adzan',[{'label':_0x53957a(0x1e1),'value':_0x53957a(0x1d6)},{'label':_0x53957a(0xd5),'value':_0x53957a(0x184)}],function(){var _0x53d9cc=_0x53957a,_0x1a552f=document[_0x53d9cc(0x91)](_0x53d9cc(0x9b));return _0x1a552f?_0x1a552f[_0x53d9cc(0x25c)]:_0x53d9cc(0x1d6);},function(_0x2053b0){var _0x4d0a5a=_0x53957a;_0x10c73e(_0x4d0a5a(0x9b),_0x2053b0),typeof togglePreAdzanSource===_0x4d0a5a(0x156)&&togglePreAdzanSource(document['getElementById']('pre-adzan-source'));});}),_0x56cdaa('514',_0x4f1b2e(0xa8),function(){var _0x35dcaa=_0x4f1b2e,_0x53b416=document[_0x35dcaa(0x91)]('pre-adzan-youtube-url');_0x47c5ac(_0x35dcaa(0x14b),![],_0x35dcaa(0x1f0),function(_0x2e9d1e){var _0x293c06=_0x35dcaa;if(_0x53b416)_0x53b416[_0x293c06(0x25c)]=_0x2e9d1e;if(typeof savePreAdzanYoutubeLink===_0x293c06(0x156))savePreAdzanYoutubeLink();else _0x3ddba6(_0x293c06(0x1d2));});}),_0x56cdaa('52','Daftar\x20Audio\x20Adzan',function(){var _0x33ed9b=_0x4f1b2e;_0xc7d480(_0x33ed9b(0x1be),_0x33ed9b(0x153));}),_0x56cdaa(_0x4f1b2e(0x145),_0x4f1b2e(0x152),function(){var _0x4b8d15=_0x4f1b2e;_0xc8431d(_0x4b8d15(0x1cb));}),_0x56cdaa(_0x4f1b2e(0x1e0),_0x4f1b2e(0xc0),function(){var _0x595467=_0x4f1b2e;_0x172a46(_0x595467(0x126),_0x595467(0x199),_0x595467(0x1b0));}),_0x56cdaa('53',_0x4f1b2e(0x242),function(){var _0x50f929=_0x4f1b2e;_0xc7d480('🔔\x20Audio\x20Alarm',_0x50f929(0x121));}),_0x56cdaa('531',_0x4f1b2e(0x99),function(){var _0x16a0d7=_0x4f1b2e;_0xc8431d(_0x16a0d7(0xbc));}),_0x56cdaa(_0x4f1b2e(0x13f),'Volume\x20Alarm',function(){var _0x4ef983=_0x4f1b2e;_0x172a46(_0x4ef983(0x14a),_0x4ef983(0x1d1),_0x4ef983(0x1f2));}),_0x56cdaa('61','Toggle\x20Papan\x20Informasi',function(){var _0x5a09b1=_0x4f1b2e;_0x314916(_0x5a09b1(0x235),_0x5a09b1(0x1e5),_0x5a09b1(0x103),function(_0x306b9f){if(typeof togglePapanInfo==='function')togglePapanInfo({'checked':_0x306b9f});});}),_0x56cdaa('62','Edit\x20Judul\x20Pengumuman',function(){var _0x392372=_0x4f1b2e,_0x2328e7=document[_0x392372(0x91)]('papan-title-input');_0x28daf8(_0x392372(0x245),function(_0x2e4936){var _0x1b27ee=_0x392372,_0x29d243=document['createElement'](_0x1b27ee(0x24e));_0x29d243['className']=_0x1b27ee(0x1c2),_0x29d243[_0x1b27ee(0x13e)]=_0x1b27ee(0xa2),_0x29d243['placeholder']='Judul\x20Pengumuman',_0x29d243[_0x1b27ee(0x25c)]=_0x2328e7?_0x2328e7[_0x1b27ee(0x25c)]:'',_0x2e4936[_0x1b27ee(0x246)](_0x29d243),_0x88fe8d(_0x2e4936,function(){var _0x1f1bf7=_0x1b27ee;if(_0x2328e7)_0x2328e7[_0x1f1bf7(0x25c)]=_0x29d243[_0x1f1bf7(0x25c)];if(typeof savePapanInfo==='function')savePapanInfo();else _0x3ddba6(_0x1f1bf7(0x13a));}),_0x29d243[_0x1b27ee(0x107)](_0x1b27ee(0x8b),function(_0x15e314){var _0x11411a=_0x1b27ee;if(_0x15e314['key']===_0x11411a(0x18c)){_0x15e314[_0x11411a(0x1c6)]();if(_0x2328e7)_0x2328e7['value']=_0x29d243[_0x11411a(0x25c)];if(typeof savePapanInfo===_0x11411a(0x156))savePapanInfo();_0x4cb8ae();}});});}),_0x56cdaa('63',_0x4f1b2e(0xef),function(){var _0x4cb9e2=_0x4f1b2e,_0x343e5a=document[_0x4cb9e2(0x91)](_0x4cb9e2(0x205));_0x28daf8(_0x4cb9e2(0xbb),function(_0x11363d){var _0x302bba=_0x4cb9e2,_0x3867da=document['createElement']('textarea');_0x3867da[_0x302bba(0x11f)]=_0x302bba(0x1c2),_0x3867da['rows']=0x4,_0x3867da[_0x302bba(0x1a7)]='Deskripsi...',_0x3867da[_0x302bba(0x25c)]=_0x343e5a?_0x343e5a[_0x302bba(0x25c)]:'',_0x11363d[_0x302bba(0x246)](_0x3867da),_0x88fe8d(_0x11363d,function(){var _0x4f59b0=_0x302bba;if(_0x343e5a)_0x343e5a['value']=_0x3867da[_0x4f59b0(0x25c)];if(typeof savePapanInfo==='function')savePapanInfo();else _0x3ddba6(_0x4f59b0(0x13a));});});}),_0x56cdaa('71',_0x4f1b2e(0x15e),function(){var _0x161686=_0x4f1b2e;_0x314916(_0x161686(0x8d),'✅\x20Mode\x20Kajian\x20aktif',_0x161686(0x94),function(_0x44160f){var _0x1baf6e=_0x161686;if(typeof toggleKajian===_0x1baf6e(0x156))toggleKajian({'checked':_0x44160f});});}),_0x56cdaa('72',_0x4f1b2e(0x110),function(){var _0x2bf809=_0x4f1b2e;_0x314916('toggle-hide-cards',_0x2bf809(0x229),_0x2bf809(0x109),function(_0x30fb6c){var _0x4ce4b4=_0x2bf809;if(typeof toggleHideCards===_0x4ce4b4(0x156))toggleHideCards({'checked':_0x30fb6c});});}),_0x56cdaa('73','Upload\x20Gambar\x20Kajian',function(){var _0x2d1c4f=_0x4f1b2e;_0xc8431d(_0x2d1c4f(0xce));}),_0x56cdaa('74',_0x4f1b2e(0x10d),function(){var _0x5d85a2=_0x4f1b2e;_0xc8431d(_0x5d85a2(0x157));}),_0x56cdaa('75','Input\x20URL\x20Stream\x20Kajian',function(){var _0x53590d=_0x4f1b2e,_0x81a754=document[_0x53590d(0x91)](_0x53590d(0x178));_0x28daf8('🔗\x20URL\x20Video\x20/\x20Stream',function(_0x513523){var _0x2ca0a2=_0x53590d,_0x55c09d=document[_0x2ca0a2(0x1f5)](_0x2ca0a2(0x24e));_0x55c09d[_0x2ca0a2(0x11f)]='rc-input',_0x55c09d[_0x2ca0a2(0x13e)]=_0x2ca0a2(0xa2),_0x55c09d['placeholder']=_0x2ca0a2(0x1f0),_0x55c09d['value']=_0x81a754?_0x81a754[_0x2ca0a2(0x25c)]:'',_0x513523[_0x2ca0a2(0x246)](_0x55c09d);var _0x579d43=document[_0x2ca0a2(0x1f5)]('p');_0x579d43[_0x2ca0a2(0x11f)]=_0x2ca0a2(0x24b),_0x579d43[_0x2ca0a2(0x96)]=_0x2ca0a2(0x1c9),_0x513523['appendChild'](_0x579d43),_0x88fe8d(_0x513523,function(){var _0x223c09=_0x2ca0a2;if(_0x81a754)_0x81a754[_0x223c09(0x25c)]=_0x55c09d[_0x223c09(0x25c)];if(typeof applyKajianUrl===_0x223c09(0x156))applyKajianUrl();else _0x3ddba6(_0x223c09(0xf5));}),_0x55c09d[_0x2ca0a2(0x107)]('keydown',function(_0x19041d){var _0x182391=_0x2ca0a2;if(_0x19041d[_0x182391(0x171)]==='Enter'){_0x19041d[_0x182391(0x1c6)]();if(_0x81a754)_0x81a754[_0x182391(0x25c)]=_0x55c09d[_0x182391(0x25c)];if(typeof applyKajianUrl===_0x182391(0x156))applyKajianUrl();_0x4cb8ae();}});});}),_0x56cdaa('76',_0x4f1b2e(0x22b),function(){var _0x36cfbb=_0x4f1b2e,_0x538bc7=document[_0x36cfbb(0x91)](_0x36cfbb(0x1c5));_0x28daf8(_0x36cfbb(0x23a),function(_0xa01fe2){var _0x4dd94a=_0x36cfbb,_0x5b2a47=document[_0x4dd94a(0x1f5)](_0x4dd94a(0x24e));_0x5b2a47[_0x4dd94a(0x11f)]=_0x4dd94a(0x1c2),_0x5b2a47[_0x4dd94a(0x13e)]='text',_0x5b2a47['placeholder']=_0x4dd94a(0x143),_0x5b2a47[_0x4dd94a(0x25c)]=_0x538bc7?_0x538bc7[_0x4dd94a(0x25c)]:'',_0xa01fe2[_0x4dd94a(0x246)](_0x5b2a47),_0x88fe8d(_0xa01fe2,function(){var _0x146c66=_0x4dd94a;if(_0x538bc7)_0x538bc7[_0x146c66(0x25c)]=_0x5b2a47[_0x146c66(0x25c)];if(typeof saveKajian===_0x146c66(0x156))saveKajian();else _0x3ddba6(_0x146c66(0xdb));}),_0x5b2a47[_0x4dd94a(0x107)](_0x4dd94a(0x8b),function(_0x12042c){var _0x4f6b99=_0x4dd94a;if(_0x12042c['key']===_0x4f6b99(0x18c)){_0x12042c[_0x4f6b99(0x1c6)]();if(_0x538bc7)_0x538bc7[_0x4f6b99(0x25c)]=_0x5b2a47[_0x4f6b99(0x25c)];if(typeof saveKajian==='function')saveKajian();_0x4cb8ae();}});});}),_0x56cdaa(_0x4f1b2e(0x191),_0x4f1b2e(0x21c),function(){var _0x23d5e6=_0x4f1b2e;if(typeof clearKajianItem===_0x23d5e6(0x156))clearKajianItem(_0x23d5e6(0x15b)),_0x3ddba6(_0x23d5e6(0x100));else _0x3ddba6('⚠\x20clearKajianItem()\x20tidak\x20ditemukan');}),_0x56cdaa('741','Hapus\x20Video\x20Kajian',function(){var _0x40693f=_0x4f1b2e;if(typeof clearKajianItem===_0x40693f(0x156))clearKajianItem('video'),_0x3ddba6(_0x40693f(0x227));else _0x3ddba6(_0x40693f(0x118));}),_0x56cdaa(_0x4f1b2e(0x192),_0x4f1b2e(0x261),function(){var _0xdc16cd=_0x4f1b2e;if(typeof clearKajianItem===_0xdc16cd(0x156))clearKajianItem(_0xdc16cd(0x1f6)),_0x3ddba6(_0xdc16cd(0x165));else _0x3ddba6(_0xdc16cd(0x118));}),_0x56cdaa('77',_0x4f1b2e(0xa4),function(){var _0x4810b5=_0x4f1b2e,_0x3521d2=document['getElementById'](_0x4810b5(0x1a0));_0x5c82d4('⏱\x20Delay\x20Muncul\x20Pemateri',0x0,0x12c,_0x4810b5(0x117),function(_0x4b1274){var _0x19798a=_0x4810b5;_0x3521d2&&(_0x3521d2[_0x19798a(0x25c)]=_0x4b1274,_0x3521d2['dispatchEvent'](new Event('change',{'bubbles':!![]}))),_0x3ddba6('✅\x20Delay:\x20'+_0x4b1274+_0x19798a(0x1ab));});}),_0x56cdaa('78',_0x4f1b2e(0x13c),function(){var _0x85ebd=_0x4f1b2e,_0x1128fa=document['getElementById'](_0x85ebd(0x182));_0x5c82d4('⏱\x20Durasi\x20Tampil\x20Pemateri',0x5,0x258,_0x85ebd(0x117),function(_0x24d13f){var _0x228310=_0x85ebd;_0x1128fa&&(_0x1128fa[_0x228310(0x25c)]=_0x24d13f,_0x1128fa[_0x228310(0xa5)](new Event(_0x228310(0xed),{'bubbles':!![]}))),_0x3ddba6('✅\x20Durasi:\x20'+_0x24d13f+_0x228310(0x1ab));});}),_0x56cdaa('79',_0x4f1b2e(0x89),function(){_0x3bda32();}),_0x56cdaa(_0x4f1b2e(0x183),_0x4f1b2e(0x129),function(){_0x2e4704();}),_0x56cdaa('811',_0x4f1b2e(0x236),function(){var _0x18d788=_0x4f1b2e;_0xb4af38(_0x18d788(0xc9));}),_0x56cdaa(_0x4f1b2e(0x19a),_0x4f1b2e(0x231),function(){var _0x4ea544=_0x4f1b2e;_0xb4af38(_0x4ea544(0x140));}),_0x56cdaa(_0x4f1b2e(0x87),'Pilih\x20Kamera\x203',function(){var _0x3f1ab7=_0x4f1b2e;_0xb4af38(_0x3f1ab7(0x16f));}),_0x56cdaa(_0x4f1b2e(0xb5),_0x4f1b2e(0x206),function(){_0xb4af38('camera-select-4');}),_0x56cdaa(_0x4f1b2e(0xe1),'Mulai\x20Kamera',function(){var _0x40b4bb=_0x4f1b2e;if(typeof lgMulaiKamera===_0x40b4bb(0x156))lgMulaiKamera();else _0x402fc7('btn-mulai-kamera');}),_0x56cdaa(_0x4f1b2e(0xcc),_0x4f1b2e(0x252),function(){var _0x464f70=_0x4f1b2e,_0x1afcdb=document[_0x464f70(0x91)](_0x464f70(0x179));if(_0x1afcdb)_0x1afcdb[_0x464f70(0x180)]();else _0x3ddba6(_0x464f70(0xc3));}),_0x56cdaa(_0x4f1b2e(0x159),_0x4f1b2e(0x108),function(){var _0x35452b=_0x4f1b2e;if(typeof toggleRekam===_0x35452b(0x156))toggleRekam();else _0x402fc7(_0x35452b(0x1fd));}),_0x56cdaa('831',_0x4f1b2e(0x1d3),function(){var _0x9dc497=_0x4f1b2e;if(typeof lgSwitchKamera===_0x9dc497(0x156))lgSwitchKamera(0x1);else _0x402fc7(_0x9dc497(0xca));}),_0x56cdaa(_0x4f1b2e(0xbf),_0x4f1b2e(0x105),function(){var _0x500943=_0x4f1b2e;if(typeof lgSwitchKamera===_0x500943(0x156))lgSwitchKamera(0x2);else _0x402fc7(_0x500943(0x115));}),_0x56cdaa(_0x4f1b2e(0x25e),_0x4f1b2e(0x251),function(){var _0xb2c638=_0x4f1b2e;if(typeof lgSwitchKamera===_0xb2c638(0x156))lgSwitchKamera(0x3);else _0x402fc7('lg-sw-btn-3');}),_0x56cdaa(_0x4f1b2e(0xe0),'Switch\x20Kamera\x204',function(){var _0x27992c=_0x4f1b2e;if(typeof lgSwitchKamera===_0x27992c(0x156))lgSwitchKamera(0x4);else _0x402fc7('lg-sw-btn-4');}),_0x56cdaa(_0x4f1b2e(0x132),'Transisi\x20Kamera:\x20Statis',function(){var _0xf80458=_0x4f1b2e;_0x10c73e('lg-transisi-select',_0xf80458(0x8f)),_0x3ddba6(_0xf80458(0x187));}),_0x56cdaa(_0x4f1b2e(0x1ba),_0x4f1b2e(0xbd),function(){var _0x45a272=_0x4f1b2e;_0x10c73e(_0x45a272(0x258),_0x45a272(0x1a2)),_0x3ddba6('✅\x20Transisi:\x20Fade');}),_0x56cdaa(_0x4f1b2e(0x1a6),_0x4f1b2e(0x1f9),function(){var _0x559d68=_0x4f1b2e;window[_0x559d68(0x142)]&&typeof window[_0x559d68(0x142)][_0x559d68(0x1bf)]===_0x559d68(0x156)?window['FirebaseRemoteBridge'][_0x559d68(0x1bf)]():_0x3ddba6(_0x559d68(0x1c4));}),_0x56cdaa('91',_0x4f1b2e(0x194),function(){var _0x17f896=_0x4f1b2e;_0x314916(_0x17f896(0x155),_0x17f896(0x102),_0x17f896(0x16a),function(_0x3a7f63){if(typeof toggleDonasi==='function')toggleDonasi({'checked':_0x3a7f63});});}),_0x56cdaa('92',_0x4f1b2e(0x168),function(){var _0x3ea55a=_0x4f1b2e,_0x4f991a=document['getElementById'](_0x3ea55a(0x222));_0x28daf8(_0x3ea55a(0xe5),function(_0x50cb0e){var _0x4ab7fc=_0x3ea55a,_0x6d8b51=document[_0x4ab7fc(0x1f5)](_0x4ab7fc(0x24e));_0x6d8b51['className']=_0x4ab7fc(0x1c2),_0x6d8b51[_0x4ab7fc(0x13e)]='text',_0x6d8b51[_0x4ab7fc(0x1a7)]=_0x4ab7fc(0x18d),_0x6d8b51[_0x4ab7fc(0x25c)]=_0x4f991a?_0x4f991a[_0x4ab7fc(0x25c)]:'',_0x50cb0e[_0x4ab7fc(0x246)](_0x6d8b51),_0x88fe8d(_0x50cb0e,function(){var _0x3372bb=_0x4ab7fc;if(_0x4f991a)_0x4f991a['value']=_0x6d8b51[_0x3372bb(0x25c)];if(typeof saveDonasi===_0x3372bb(0x156))saveDonasi();else _0x3ddba6(_0x3372bb(0x144));}),_0x6d8b51[_0x4ab7fc(0x107)](_0x4ab7fc(0x8b),function(_0x4c5d37){var _0x425278=_0x4ab7fc;if(_0x4c5d37['key']===_0x425278(0x18c)){_0x4c5d37[_0x425278(0x1c6)]();if(_0x4f991a)_0x4f991a[_0x425278(0x25c)]=_0x6d8b51[_0x425278(0x25c)];if(typeof saveDonasi===_0x425278(0x156))saveDonasi();_0x4cb8ae();}});});}),_0x56cdaa('93','Upload\x20QR\x20Code\x20Donasi',function(){_0xc8431d('donasi-qr-upload');}),_0x56cdaa('94',_0x4f1b2e(0x12d),function(){var _0x1c36f0=_0x4f1b2e,_0x2d8a5f=document[_0x1c36f0(0x91)](_0x1c36f0(0x146));_0x28daf8(_0x1c36f0(0x154),function(_0x472653){var _0x3c570e=_0x1c36f0,_0x3494bb=document[_0x3c570e(0x1f5)](_0x3c570e(0x200));_0x3494bb[_0x3c570e(0x11f)]=_0x3c570e(0x1c2),_0x3494bb[_0x3c570e(0x13d)]=0x3,_0x3494bb['placeholder']=_0x3c570e(0x218),_0x3494bb[_0x3c570e(0x25c)]=_0x2d8a5f?_0x2d8a5f[_0x3c570e(0x25c)]:'',_0x472653['appendChild'](_0x3494bb),_0x88fe8d(_0x472653,function(){var _0x158b0d=_0x3c570e;if(_0x2d8a5f)_0x2d8a5f[_0x158b0d(0x25c)]=_0x3494bb[_0x158b0d(0x25c)];if(typeof saveDonasi===_0x158b0d(0x156))saveDonasi();else _0x3ddba6(_0x158b0d(0x144));});});}),_0x56cdaa(_0x4f1b2e(0xa6),'Template\x20Default',function(){var _0x1c3a29=_0x4f1b2e;if(typeof setTemplate==='function')setTemplate('default');else _0x3ddba6(_0x1c3a29(0x240));}),_0x56cdaa(_0x4f1b2e(0x88),_0x4f1b2e(0x243),function(){var _0x5be690=_0x4f1b2e;if(typeof setTemplate===_0x5be690(0x156))setTemplate(_0x5be690(0x162));else _0x3ddba6(_0x5be690(0x240));}),_0x56cdaa(_0x4f1b2e(0x1fa),_0x4f1b2e(0x189),function(){var _0x22fc52=_0x4f1b2e;if(typeof setTemplate==='function')setTemplate(_0x22fc52(0x1c0));else _0x3ddba6(_0x22fc52(0x240));}),_0x56cdaa(_0x4f1b2e(0x23d),_0x4f1b2e(0xfa),function(){_0x2f643b();}),_0x56cdaa(_0x4f1b2e(0x250),_0x4f1b2e(0xfd),function(){var _0x2dd5d3=_0x4f1b2e;_0x52097e(_0x2dd5d3(0x1d4),_0x2dd5d3(0x1ec),_0x2dd5d3(0x18a));}),_0x56cdaa(_0x4f1b2e(0x19c),_0x4f1b2e(0x1a8),function(){var _0x1c51cd=_0x4f1b2e;_0x3a078e(_0x1c51cd(0x1b3),_0x1c51cd(0xba),null);}),_0x56cdaa(_0x4f1b2e(0x123),_0x4f1b2e(0x14e),function(){var _0x21fed6=_0x4f1b2e;_0x52097e('🎨\x20Warna\x20Card\x20Waktu',_0x21fed6(0x1dd),'--cards-bg');}),_0x56cdaa('1062',_0x4f1b2e(0x213),function(){var _0x4ff3e3=_0x4f1b2e;_0x3a078e('🔆\x20Opacity\x20Card\x20Waktu',_0x4ff3e3(0x172),null);}),_0x56cdaa('1071',_0x4f1b2e(0x22f),function(){var _0x3d539c=_0x4f1b2e;_0x52097e('🎨\x20Warna\x20Card\x20Aktif',_0x3d539c(0x114),_0x3d539c(0xf0));}),_0x56cdaa(_0x4f1b2e(0x25b),'Warna\x20Banner\x20Hari\x20Besar',function(){var _0x3367a8=_0x4f1b2e;_0x52097e('🎨\x20Warna\x20Banner\x20Hari\x20Besar',_0x3367a8(0x1c8),'--banner-bg');}),_0x56cdaa('1073',_0x4f1b2e(0x86),function(){var _0x2cc55b=_0x4f1b2e;_0x52097e(_0x2cc55b(0x1cf),'.swatch-rt\x20.color-swatches,\x20[data-swatch=\x22rt-text\x22]\x20.color-swatches',_0x2cc55b(0xc8));}),_0x56cdaa(_0x4f1b2e(0xeb),_0x4f1b2e(0x23e),function(){var _0x564be4=_0x4f1b2e;_0x52097e('🎨\x20BG\x20Running\x20Text',_0x564be4(0x106),'--rt-bg');}),_0x56cdaa(_0x4f1b2e(0x226),_0x4f1b2e(0x12c),function(){var _0x23c878=_0x4f1b2e;_0x3a078e(_0x23c878(0x18f),_0x23c878(0x23c),null);}),_0x56cdaa(_0x4f1b2e(0xa3),'Warna\x20Background\x20Popup',function(){var _0x5a57ef=_0x4f1b2e;_0x52097e(_0x5a57ef(0x130),_0x5a57ef(0x14f),_0x5a57ef(0x21b));}),_0x56cdaa(_0x4f1b2e(0x256),'Opacity\x20Background\x20Popup',function(){var _0x5eb4d2=_0x4f1b2e;_0x3a078e(_0x5eb4d2(0x151),_0x5eb4d2(0x92),null);}),_0x56cdaa(_0x4f1b2e(0x25a),'Warna\x20Background\x20Modal',function(){var _0x21e005=_0x4f1b2e;_0x52097e(_0x21e005(0xf2),_0x21e005(0xb7),_0x21e005(0xb4));}),_0x56cdaa(_0x4f1b2e(0x1ed),_0x4f1b2e(0xd1),function(){var _0x1780be=_0x4f1b2e;if(typeof setPopupPosition==='function')setPopupPosition(_0x1780be(0xae));}),_0x56cdaa(_0x4f1b2e(0x1fc),'Posisi\x20Popup:\x20Tengah',function(){var _0x3f1880=_0x4f1b2e;if(typeof setPopupPosition==='function')setPopupPosition(_0x3f1880(0xf9));}),_0x56cdaa('1093',_0x4f1b2e(0x1b6),function(){var _0x576725=_0x4f1b2e;if(typeof setPopupPosition===_0x576725(0x156))setPopupPosition(_0x576725(0x134));}),_0x56cdaa(_0x4f1b2e(0x119),'Ukuran\x20Kotak\x20Popup\x20(%)',function(){var _0x36a771=_0x4f1b2e,_0x35464f=window['S']&&S[_0x36a771(0xd2)]?S[_0x36a771(0xd2)]:0x64;_0x5c82d4(_0x36a771(0x190),0x32,0xc8,'%',function(_0x1c5af3){var _0xd758bc=_0x36a771;if(typeof commitPopupScale===_0xd758bc(0x156))commitPopupScale(_0x1c5af3);});}),_0x56cdaa('1095',_0x4f1b2e(0x14c),function(){var _0x1a0c95=_0x4f1b2e;if(typeof previewPopupDemo===_0x1a0c95(0x156))previewPopupDemo();}),_0x56cdaa(_0x4f1b2e(0x219),_0x4f1b2e(0x181),function(){var _0x433476=_0x4f1b2e;_0x5c82d4(_0x433476(0xa7),0x32,0xc8,'%',function(_0x5a97bc){var _0x456377=_0x433476;if(typeof commitGlobalFontScale===_0x456377(0x156))commitGlobalFontScale(_0x5a97bc);});}),_0x56cdaa(_0x4f1b2e(0xf4),_0x4f1b2e(0xad),function(){var _0x2c7b3e=_0x4f1b2e;_0x314916(_0x2c7b3e(0x1df),_0x2c7b3e(0xe9),_0x2c7b3e(0x124),function(_0x1abcb4){if(typeof toggleAdzanMode==='function')toggleAdzanMode({'checked':_0x1abcb4});});}),_0x56cdaa('122','Toggle\x20Kas\x20Masjid\x20&\x20Ayat/Hadits',function(){var _0x202f2c=_0x4f1b2e;_0x314916(_0x202f2c(0xc7),_0x202f2c(0xdf),'⛔\x20Kas\x20Masjid\x20&\x20Ayat/Hadits\x20nonaktif',function(_0x49145f){if(typeof toggleKasAyat==='function')toggleKasAyat({'checked':_0x49145f});});}),_0x56cdaa(_0x4f1b2e(0xe6),_0x4f1b2e(0xb9),function(){var _0x3bd9fe=_0x4f1b2e;_0x12f1c4(_0x3bd9fe(0x21e),[{'label':_0x3bd9fe(0x237),'value':_0x3bd9fe(0xb1)},{'label':_0x3bd9fe(0x1c3),'value':_0x3bd9fe(0xf3)}],function(){var _0x4376d1=_0x3bd9fe,_0xcb2fee=document[_0x4376d1(0x91)](_0x4376d1(0x232));return _0xcb2fee?_0xcb2fee['value']:_0x4376d1(0xb1);},function(_0x318002){var _0x4468d6=_0x3bd9fe;_0x10c73e(_0x4468d6(0x232),_0x318002);if(typeof setKasViewMode===_0x4468d6(0x156))setKasViewMode(_0x318002);});}),_0x56cdaa(_0x4f1b2e(0x9a),_0x4f1b2e(0x1bb),function(){var _0x340e6=_0x4f1b2e;_0x5c82d4(_0x340e6(0x1b2),0x3,0x1e,'detik',function(_0x39b9b8){var _0x348ff1=_0x340e6,_0x53271c=document[_0x348ff1(0x91)](_0x348ff1(0x1bd));if(_0x53271c)_0x53271c[_0x348ff1(0x25c)]=_0x39b9b8;var _0x2d62df=document[_0x348ff1(0x91)](_0x348ff1(0x12b));if(_0x2d62df)_0x2d62df[_0x348ff1(0x96)]=_0x39b9b8;if(typeof setKaRotationDuration===_0x348ff1(0x156))setKaRotationDuration(_0x39b9b8);});}),_0x56cdaa(_0x4f1b2e(0x136),'Toggle\x20Video\x20Sebelum\x20Adzan',function(){var _0x13b28=_0x4f1b2e;_0x314916('toggle-video-before',_0x13b28(0x1da),_0x13b28(0x147),function(_0x52e09e){if(typeof toggleVideoBefore==='function')toggleVideoBefore({'checked':_0x52e09e});});}),_0x56cdaa(_0x4f1b2e(0x1f1),'Pilih\x20Sumber\x20Video\x20Sebelum\x20Adzan',function(){var _0x21f5e8=_0x4f1b2e;_0x12f1c4('🎬\x20Sumber\x20Video\x20Sebelum\x20Adzan',[{'label':_0x21f5e8(0xf1),'value':_0x21f5e8(0x25d)},{'label':_0x21f5e8(0xd5),'value':_0x21f5e8(0x1e7)}],function(){var _0x43326d=_0x21f5e8,_0x53706b=document[_0x43326d(0x91)](_0x43326d(0x170));return _0x53706b?_0x53706b[_0x43326d(0x25c)]:'upload';},function(_0x46560e){var _0x12688c=_0x21f5e8;_0x10c73e('video-before-source',_0x46560e);if(typeof setVideoBeforeSource===_0x12688c(0x156))setVideoBeforeSource(_0x46560e);});}),_0x56cdaa(_0x4f1b2e(0xfe),_0x4f1b2e(0x176),function(){_0xc8431d('upload-video-before');}),_0x56cdaa(_0x4f1b2e(0x1ac),_0x4f1b2e(0x9c),function(){var _0x1d7693=_0x4f1b2e,_0x355d68=document[_0x1d7693(0x91)](_0x1d7693(0x19b));_0x47c5ac('🔗\x20Link\x20YouTube\x20Video\x20Sebelum\x20Adzan',![],_0x1d7693(0x1f0),function(_0x15af68){var _0xa197e7=_0x1d7693;if(_0x355d68)_0x355d68['value']=_0x15af68;if(typeof saveVideoBeforeYoutube===_0xa197e7(0x156))saveVideoBeforeYoutube();else _0x3ddba6(_0xa197e7(0x23b));});}),_0x56cdaa(_0x4f1b2e(0x209),'Edit\x20Nama\x20Masjid',function(){var _0x5bd3cb=_0x4f1b2e,_0x815e15=document[_0x5bd3cb(0x91)](_0x5bd3cb(0x19e));_0x47c5ac(_0x5bd3cb(0x1e4),![],_0x5bd3cb(0x90),function(_0x2e966d){var _0x257d22=_0x5bd3cb;if(_0x815e15)_0x815e15[_0x257d22(0x25c)]=_0x2e966d;if(typeof saveMasjid===_0x257d22(0x156))saveMasjid();else _0x3ddba6('⚠\x20saveMasjid()\x20tidak\x20ditemukan');});}),_0x56cdaa(_0x4f1b2e(0x211),_0x4f1b2e(0xfb),function(){var _0x15cec5=_0x4f1b2e,_0x5beeac=document[_0x15cec5(0x91)](_0x15cec5(0x18b));_0x47c5ac('📍\x20Kota/Lokasi',![],'Kota',function(_0x2cc354){var _0x444d6f=_0x15cec5;if(_0x5beeac)_0x5beeac[_0x444d6f(0x25c)]=_0x2cc354;if(typeof saveMasjid===_0x444d6f(0x156))saveMasjid();else _0x3ddba6(_0x444d6f(0x201));});}),_0x56cdaa('133',_0x4f1b2e(0x22a),function(){var _0x1978bf=_0x4f1b2e,_0x4f667f=document[_0x1978bf(0x91)]('input-city-api');if(!_0x4f667f){_0x3ddba6(_0x1978bf(0x139));return;}var _0x1afe62=function(){var _0x58f4d3=_0x1978bf;_0x4f667f['removeEventListener'](_0x58f4d3(0xed),_0x1afe62);if(typeof saveMasjid==='function')saveMasjid();};_0x4f667f[_0x1978bf(0x107)](_0x1978bf(0xed),_0x1afe62),_0xb4af38(_0x1978bf(0x1a4));}),_0x56cdaa('141',_0x4f1b2e(0x15c),function(){var _0x515c81=_0x4f1b2e;if(typeof openEventModal===_0x515c81(0x156))openEventModal();else _0x3ddba6(_0x515c81(0x20c));}),_0x56cdaa(_0x4f1b2e(0xc5),'Buka\x20Mode\x20Muadzin',function(){var _0x53d326=_0x4f1b2e;if(typeof openMuadzinModal===_0x53d326(0x156))openMuadzinModal();else _0x3ddba6(_0x53d326(0xd9));}),_0x56cdaa(_0x4f1b2e(0x224),_0x4f1b2e(0x1ad),function(){var _0x25bab2=_0x4f1b2e;if(typeof openSettings===_0x25bab2(0x156))openSettings();setTimeout(function(){var _0x27324a=_0x25bab2;if(typeof toggleSection===_0x27324a(0x156))toggleSection('sec-tentang');var _0x52d77e=document[_0x27324a(0x91)](_0x27324a(0x1d7));if(_0x52d77e&&_0x52d77e['scrollIntoView'])_0x52d77e[_0x27324a(0x239)]({'behavior':_0x27324a(0x1f3),'block':_0x27324a(0x24a)});},0x12c);}),console[_0x4f1b2e(0x10c)](_0x4f1b2e(0x260));}document[_0x51bd62(0x212)]===_0x51bd62(0xee)?document[_0x51bd62(0x107)](_0x51bd62(0x10f),_0x5ece03):_0x5ece03();}()));function _0x1208(_0x21ff1b,_0x475449){_0x21ff1b=_0x21ff1b-0x86;var _0x43495a=_0x4349();var _0x1208d6=_0x43495a[_0x21ff1b];if(_0x1208['ZeHkgP']===undefined){var _0x2e50a9=function(_0x16972b){var _0x46da17='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';var _0x3ddba6='',_0x5cdeda='';for(var _0x54b9f1=0x0,_0x28daf8,_0x4cb8ae,_0x88fe8d=0x0;_0x4cb8ae=_0x16972b['charAt'](_0x88fe8d++);~_0x4cb8ae&&(_0x28daf8=_0x54b9f1%0x4?_0x28daf8*0x40+_0x4cb8ae:_0x4cb8ae,_0x54b9f1++%0x4)?_0x3ddba6+=String['fromCharCode'](0xff&_0x28daf8>>(-0x2*_0x54b9f1&0x6)):0x0){_0x4cb8ae=_0x46da17['indexOf'](_0x4cb8ae);}for(var _0x47c5ac=0x0,_0x5c82d4=_0x3ddba6['length'];_0x47c5ac<_0x5c82d4;_0x47c5ac++){_0x5cdeda+='%'+('00'+_0x3ddba6['charCodeAt'](_0x47c5ac)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x5cdeda);};_0x1208['CuaxHJ']=_0x2e50a9,_0x1208['LXhmYk']={},_0x1208['ZeHkgP']=!![];}var _0x10431a=_0x43495a[0x0],_0x1bb73f=_0x21ff1b+_0x10431a,_0x33944c=_0x1208['LXhmYk'][_0x1bb73f];return!_0x33944c?(_0x1208d6=_0x1208['CuaxHJ'](_0x1208d6),_0x1208['LXhmYk'][_0x1bb73f]=_0x1208d6):_0x1208d6=_0x33944c,_0x1208d6;}function _0x4349(){var _0x5e69b3=['Aw5WDxqTBwfZAMLKlwXVy2f0Aw9U','rw50zxi','q29UDg9OoIbeB25HC2KGtwfZAMLK','zM9UDc1Myw1PBhK6ug9WCgLUCYXZyw5ZlxnLCMLMoW','8j+uHIbpCgfJAxr5iejhifj1BM5PBMCGvgv4Da','8j+tKcbvA3vYyw4Gs290ywSGug9WDxaGkcuP','nZmX','nZuX','z2fWoJeYChG7','vg9Nz2XLierVBMfZAq','rMfKzq','ode3muviEfbNBa','i3jJlw1PBMKTBw9KywWGlNjJlw9WDgLVBI1SAxn0E2XPC3qTC3r5Bgu6BM9UztTTyxjNAw46mdTWywrKAw5NoJa7Fq','ihrPzgfRigrPDgvTDwTHBG','DM9SlwfKEMfUlxnLDhrPBMDZ','odeY','DMLKzw8TyMvMB3jLlxLVDxr1yMuTDxjS','mta1mG','y2HLy2TLza','Aw5WDxqTBwfZAMLKlw5HBwu','4PUuieLTC2fRigrPC2vTyNvUEwLRyw4','A2fQAwfUlxbLBwf0zxjPlwrLBgf5','CgfKzgLUzY1IB3r0B206mtbWEdS','zMfKzq','CMfUz2u','Aw5WDxqTy2L0Es1HCgK','yM9YzgvYoJfWEcbZB2XPzcbYz2jHkdi1nsWYntuSmJu1lc4YktTWywrKAw5NoJLWEcaXohb4oW','oda4','CgXHy2vOB2XKzxi','t3bHy2L0EsbuB3bIyxi','CM91BMq','s2XPAYb1BNr1AYbTzw1PBgLOihrLBweGD2fYBMeGCMLIyM9UlG','igrLDgLR','mti4','qNvRysbnzw51ifrLBNrHBMC','yM9YzgvYoJjWEcbZB2XPzcb0CMfUC3bHCMvUDdS','ms4XCMvT','DM9SlwfKEMfUlxnLDhrPBMDZlxzHBa','lxDLyMTPDc1IB3GTCgfJAZPLBMq7lxDLyMTPDc1QDxn0Awz5lwnVBNrLBNq6zMXLEc1LBMq7ANvZDgLMEs1JB250zw50oMzSzxGTzw5KoW','4O+Xier1CMfZAsblyxmGtwfZAMLKiokgKIbbEwf0l0HHzgL0CW','8j+uHIbpCgfJAxr5ifrVCgjHCG','s2XPAYbHDgf1ig5HDMLNyxnPihvUDhvRig1LBwLSAwGGDgvTys4','yNv0Dg9U','ug9ZAxnPifbVChvWoIblyw5HBG','CMmTBw9KywWTC3r5Bgu','i3jJlw1PBMKTBw9KywWGAdn7','zgLZCgXHEtOTD2vIA2L0lwjVEdTKAxnWBgf5oI13zwjRAxqTzMXLEdTKAxnWBgf5oMzSzxG7lxDLyMTPDc1MBgv4lxDYyxa6D3jHCdTMBgv4lxDYyxa6D3jHCdTNyxa6ohb4oW','odqY','rhvYyxnPiefUAw1HC2KGs2fZie1HC2PPzcdIHPiGqxLHDc9iywrPDhm','yMfJA2DYB3vUzenVBg9Y','A2eTzhvYyxrPB24TC2XPzgvY','8j+tOIbbDwrPBYbbzhPHBG','B3bLBLbHAxjPBMC','y2fYzgf0yxm','zM9UDc1ZAxPLoI43ohjLBtTMB250lxDLAwDODdO3mda7Dgv4Dc1HBgLNBJPJzw50zxi7BgLUzs1OzwLNAhq6mJrWEdS','CMmTAw5WDxq','qNvSyw4Gsw5P','4PQGiezPDhvYihbHAxjPBMCGyMvSDw0GC2LHCcWGy29IysbSywDPihnLyMvUDgfY','A2fQAwfUlxbLBwf0zxjP','ChjLDMvUDerLzMf1Bhq','8j+oTsbbDwrPBYbqCMuTqwr6yw4','lNn3yxrJAc1Iyw5UzxiGlMnVBg9Ylxn3yxrJAgvZlcbBzgf0ys1ZD2f0y2G9iMjHBM5LCI1IzYjDic5JB2XVCI1ZD2f0y2HLCW','ww91vhvIzsWGtva0lcbHDgf1igXPBMSGC3rYzwfTigXHBMDZDw5NlG','CMLIyM9UlwzVBNqTC2L6zs12ywW','DxbSB2fKlwfKEMfUlxnLDhrPBMDZ','vg9Nz2XLifrHBxbPBgTHBIbtExvYDxe','i3jJlw1PBMKTBw9KywWGlNjJlwHPBNr7zM9UDc1ZAxPLoI43nxjLBtTJB2XVCJPYz2jHkdi1nsWYntuSmJu1lc41ktTTyxjNAw4TDg9WoJHWEdT9','CMmTyNrUlxjVDW','8j+oQcbxyxjUysbuzwTZifj1BM5PBMCGvgv4Da','C3bHBG','DM9SlwfSyxjT','4PQGihnHDMvqCMvbzhPHBLLVDxr1yMvmAw5RkcKGDgLKywSGzgL0zw11A2fU','u3DPDgnOieTHBwvYysaX','8j+oQcbxyxjUysbuB3bIyxi','vhv0Dxa','zgvMyxvSDa','C2vJlxrLBNrHBMC','B3bHy2L0EsaUnhm','i3jJlw1PBMKTBw9KywWGlNjJlwj0BI1Jyw5JzwX7','4PYfifzPzgvVifnLyMvSDw0Gqwr6yw4GywT0Awy','lMjNlxbYzxzPzxCTAxrLBq','vg9Nz2XLifrHBxbPBgTHBIbjBxnHAW','w2rHDgeTC3DHDgnOlxrHCMDLDd0Iy2fYzhmTyMCIxsaUy29SB3iTC3DHDgnOzxmSic5JDxn0B20TDgHLBwuTAxrLBtPUDgGTy2HPBgqOmIKGlMnVBg9Ylxn3yxrJAgvZ','yM9KEq','Dg9Nz2XLlwfKEMfUlw1Vzgu','ntiY','rMLSzsaOrgvMyxvSDc9vCgXVywqP','yMfJA2DYB3vUzdPYz2jHkdi1nsWYntuSmJu1lc4XktTJB2XVCJOJzMzMoW','zgLZCgXHEtOTD2vIA2L0lwjVEdTKAxnWBgf5oI13zwjRAxqTzMXLEdTKAxnWBgf5oMzSzxG7','8j+vJcboyw1Hie1HC2PPza','4PYfifbHCgfUieLUzM8GywT0Awy','u2XPzguGs2fUyw4','Ew91DhvIzq','iokaKYa','CMvTB3zLrxzLBNrmAxn0zw5LCG','lMf1zgLVlwL0zw0','yMfJA2DYB3vUzdOJrJvbnJiZo2nVBg9YoInMzMy7yM9YzgvYoM5VBMu7CgfKzgLUzZO5ChGGmJjWEdS','w2rHDgeTC3DHDgnOlxrHCMDLDd0IDg9WyMfYlwjNiL0GlMnVBg9Ylxn3yxrJAgvZlcaUy3vZDg9TlxrOzw1LlwL0zw06BNrOlwnOAwXKkdePic5JB2XVCI1ZD2f0y2HLCW','mta5mq','CgfKzgLUzZOXmhb4ide0ChG7y29SB3i6i2zMzJTMB250lxnPEMu6mxjLBtS','4PQGifrPzgfRigjPC2eGBwvTyNvRysbMAwXLihbPy2TLCG','Ahr0Chm6lY95B3v0DwjLlMnVBs93yxrJAd92ps4UlG','mti2','DM9SlwfSyxjTlxzHBa','C21VB3rO','phaGy2XHC3m9iNjJlwHPBNqIpNjPyMjVBI10zw1HlwDYAwqGDgLKywSGzgL0zw11A2fUlJWVCd4','y3jLyxrLrwXLBwvUDa','DxjS','D2LKDgG6mtaWjtTIywnRz3jVDw5KoNjNyMeOmJu1ldi1nsWYntuSlJa3ktS','BwfYz2LUqM90Dg9T','qNvRysbqyw5LBcbqywLYAw5NieHq','mtaZ','i3jJlw1PBMKTBw9KywWGlNjJlwjNlxrODw1IigLTz3T3Awr0AdOXmdaLo2HLAwDODdOXmdaLo29IAMvJDc1MAxq6y292zxi7Fq','mta5mG','yNrUlxjLA2fT','CMmTywn0AxzLlw9WDa','lxDLyMTPDc1MBgv4lxnOCMLUAZOWo2zSzxGTC2HYAw5RoJa7','Dgv4DgfYzwe','4PQGihnHDMvnyxnQAwqOksb0AwrHAYbKAxrLBxvRyw4','qMvSDw0GywrHigf1zgLVlIbvCgXVywqGzhvSDs4','DhjHBNnPDgLVBG','mtq2yK5fr01V','CgfWyw4TzgvZyY1PBNb1Da','ugLSAwGGs2fTzxjHidq','x2TLEuHHBMrSzxi','4PQGihnHDMvsDw5UAw5Nvgv4DcGPihrPzgfRigrPDgvTDwTHBG','mtmX','zgL2','rxnJyxbL','4PQGig9Wzw5fDMvUDe1VzgfSkcKGDgLKywSGzgL0zw11A2fU','u2vTywTPBIbRzwnPBca9ihnLBwfRAw4Gy2vWyxq','lxDLyMTPDc1IB3GTywXPz246y2vUDgvYoY13zwjRAxqTywXPz24TAxrLBxm6y2vUDgvYo2fSAwDUlwL0zw1ZoMnLBNrLCJS','i3jJlw1PBMKTBw9KywWGlNjJlxn3yxrJAc1PDgvTEW','zM9UDc1Myw1PBhK6ug9WCgLUCYXZyw5ZlxnLCMLMo2zVBNqTC2L6ztOUoxjLBtS','mtmY','CMvHzhLtDgf0zq','t3bHy2L0EsbdyxjKifDHA3r1','Dg9Nz2XLlwLTC2fR','Cg9ZAxrPB246zML4zwq7Dg9WoJa7CMLNAhq6mdTIB3r0B206mdTSzwz0oJa7','D2LKDgG6mJrWEdTOzwLNAhq6mJrWEdTIB3jKzxiTCMfKAxvZoJvWEdS','CMmTyMCTzgvSlwjHzgDL','q29UDg9OoIbcq0eGmtiZndu2nZG5mcbHlM4Uie1HC2PPzc4UlG','mta5nG','mtzWEcaW','ls1WB3b1Cc1IzW','sgfWDxmGr2fTyMfYieTHAMLHBG','CMmTyMCTz3jPza','8j+tIIbuyw1WAwXHBIblyxmGtwfZAMLK','i3jJlw1PBMKTBw9KywWGlNjJlwjNlwDYAwr7','BgfIzwW','B25JBgLJAW','zg9UyxnPlwP1zhvSlwLUChv0','y2XVBMvoB2rL','mtuY','BgvUz3rO','mta3nq','8j+xKE+4JYbwAwrLBYblywPPyw4GzgLOyxb1CW','CMmTDM9SDw1LlxDYyxa','4PYfienHCMqGqwr6yw4GzgLZzw1IDw55AwTHBG','ugLSAwGGs290ysaOqvbjifDHA3r1ifnOywXHDcK','sw5WDxqGtMfTysbqzw1HDgvYAq','4PUuie5VBMfRDgLM','4PUuie1VzguGsNvTj2f0ig5VBMfRDgLM','zM9UDc1Myw1PBhK6ug9WCgLUCYXZyw5ZlxnLCMLMo291DgXPBMu6BM9UztTIB3GTC2L6Aw5NoMjVCMrLCI1IB3G7','v2fYBMeGq2fYzcbbA3rPzG','vxbSB2fKief1zgLVifbYzs1bzhPHBG','ugLSAwGGs2fTzxjHidi','A2fZlxzPzxCTBw9Kzq','i3jJlw1PBMKTBw9KywWGlNjJlxn3yxrJAc1PDgvToMHVDMvYlcnYyY1TAw5Plw1VzgfSic5YyY1ZD2f0y2GTAxrLBs5YyY1ZDY1ZzwX7','zM9JDxm','Dg9Nz2XLlxbHCgfU','ugLSAwGGs2fTzxjHide','twLUz2D1ieLUAq','CMvTB3zLq2HPBgq','C2nYB2XSsw50B1zPzxC','8j+oKYboyw1HifbLBwf0zxjP','4PQGihnHDMvwAwrLB0jLzM9YzvLVDxr1yMuOksb0AwrHAYbKAxrLBxvRyw4','ls1YDc1IzY1VCgfJAxr5','mta0','v2fYBMeGqMfJA2DYB3vUzcbsDw5UAw5NifrLEhq','mJu4nZm2mxffrgThvq','4PQGihnLDfrLBxbSyxrLkcKGDgLKywSGzgL0zw11A2fU','4PYfifn5Dxj1CsbKAxrHBxbPBgTHBG','rgfMDgfYief1zgLViefSyxjT','vgvTCgXHDguGq2fYzcblAxjP','DxbSB2fKlxbYzs1HzhPHBG','8j+tIYbkDwr1Bcbqzw5NDw11BwfU','yxbWzw5Kq2HPBgq','zM9YrwfJAa','4PYfier1CMfZAsbKAxnLDdOG','CMmTDM9SDw1LlxzHBa','C3rHCNq','CMmTAgLUDa','BwfYz2LUlwjVDhrVBtOXnNb4o2jVCMrLCI1IB3r0B206mxb4ihnVBgLKihjNyMeOmJu1ldi1nsWYntuSlJePoW','CMmTyNrU','Aw5WDxq','yM9YzgvYlxjHzgL1CZO4ChG7zM9UDc13zwLNAhq6nJaWo2n1CNnVCJPWB2LUDgvYoW','mta1mq','u3DPDgnOieTHBwvYysaZ','u3rVCcblyw1LCMe','i3jJlw1PBMKTBw9KywWTB3zLCMXHExS','i3jJlw1PBMKTBw9KywWGlNjJlw9WDgLVBI1SAxn0igXPlNjJlwfJDgL2zs1VChr7','BwLU','mta3nW','4PYfierODwHHigrPDgfTCgLSA2fU','BgCTDhjHBNnPC2KTC2vSzwn0','i3jJlw1PBMKTBw9KywWGlNjJlxn3yxrJAc1NCMLKEW','mta3oa','mta3mG','DMfSDwu','DxbSB2fK','odmZ','4PYfie1VzguGsNvTj2f0igfRDgLM','w1jLBw90zunVzgvZxsbtzw11ysbRB2rLihrLCMrHzNrHCI4','sgfWDxmGvvjmifn0CMvHBsblywPPyw4','v2fYBMeGvgvRCYbsDw5UAw5NifrLEhq','odeZ','mtaY','ugLSAwGGvgvTysbsAwjIB24','i3jJlw1PBMKTBw9KywWGlNjJlxzVBhvTzs13CMfWigLUChv0w3r5Cgu9CMfUz2vDEW','A2v5zg93BG','yM9YzgvYoJjWEcbZB2XPzcbYz2jHkdi1nsWYntuSmJu1lc4YktTJDxjZB3i6Cg9PBNrLCJS','Dg9Nz2XLlwTHAMLHBG','mtmXnZy3mLPhyufXAG','C3rHDgLJ','tMfTysbnyxnQAwq','z2v0rwXLBwvUDej5swq','ls1WB3b1Cc1IzY1VCgfJAxr5','C2XPzguTBgvMDa','4PUuie1VzguGs2fQAwfUig5VBMfRDgLM','CxvLCNLtzwXLy3rVCG','Dgv4DenVBNrLBNq','i3jJlw1PBMKTBw9KywWGlNjJlxjPyMjVBI1PDgvTlNjJlxjPyMjVBI1ZzwX7yM9YzgvYlwnVBg9YoInMzMy7Fq','i3jJlw1PBMKTBw9KywWGlNjJlwjNlwrLBc1IywrNzxS','vxbSB2fKief1zgLViefSyxjT','mti0','ChjLlwfKEMfUlxnVDxjJzq','tgLUAYbzB3vuDwjLifzPzgvVifnLyMvSDw0Gqwr6yw4','ugLSAwGGvhjHBNnPC2KGqMfJA2DYB3vUza','i3jJlw1PBMKTBw9KywWGlNjJlxjPyMjVBI1NCMLKEW','4PYfifrYyw5ZAxnPoIa','lxDLyMTPDc1MBgv4lxDYyxa6D3jHCdTMBgv4lxDYyxa6D3jHCdTNyxa6ohb4o21HCMDPBI10B3a6nhb4oW','CNqTC3bLzwqTDMfS','Dgv4Da','mta3nG','rgvSyxKGtxvUy3vSifbLBwf0zxjPicHKzxrPAYK','zgLZCgf0y2HfDMvUDa','mtaX','8j+uPcbvA3vYyw4GrM9UDcbvBML2zxjZywWGkcuP','tgLUAYbzB3vuDwjLifbYzs1bzhPHBG','AM9PBG','Aw5Uzxjive1m','vgvRyw4Gyw5NA2eGCgfKysbYzw1VDguGyxrHDsbRBgLRihvUDhvRig1LBwLSAwGU','CMmTCMLIyM9UlwDYAwq','vg9Nz2XLie1VzguGqwr6yw4','BgvMDa','8j+oKYbqAwXPAcbuzw1HifjPyMjVBG','Aw5KzxHpzG','BwLUz2D1','nteX','4O+Xier1CMfZAsbtBgLKzsaOzgv0AwSP','ls1TB2rHBc1IzW','ode0','phaGy2XHC3m9iNjJlwHPBNqIpLn3yxrJAcb0AwrHAYbKAxrLBxvRyw4Upc9WpG','lNn3yxrJAc1TB2rHBcaUy29SB3iTC3DHDgnOzxmSifTKyxrHlxn3yxrJAd0IBw9KywWTyMCIxsaUy29SB3iTC3DHDgnOzxm','vg9Nz2XLifrHBxbPBgTHBIbeAhvOyq','vgfTCgLSyw4Gs2fZie1HC2PPzcaOtwLUz2D1l0j1BgfUkq','ls10B3bIyxiTB3bHy2L0Eq','8j+tIYbezxnRCMLWC2KGugvUz3vTDw1HBG','DxbSB2fKlwfSyxjT','vhjHBNnPC2KGs2fTzxjHoIbgywrL','8j+wVcbiyxb1CYbhyw1IyxiGqMfJA2DYB3vUza','odmY','vM9SDw1LiefKEMfU','i3jJlw1PBMKTBw9KywWGlNjJlwj0BNS','yMXVy2S','4PQGifrVBwjVBcbRyw1LCMeGDgLKywSGzgL0zw11A2fU','4PQGifnLBgvJDca','mtuX','C2HVD1bPy2TLCG','Dg9Nz2XLlwTHCY1HEwf0','ls1YDc10zxH0','y2fTzxjHlxnLBgvJDc0X','BgCTC3CTyNrUlte','zgLZCgXHEq','odiY','s2vJzxbHDgfUifj1BM5PBMCGvgv4Da','DxbSB2fKlwTHAMLHBI1PBwC','z2v0uhjVCgvYDhLwywX1zq','Bwf4lxDPzhrOoJKYDNC7Bwf4lwHLAwDODdO4mhzOo292zxjMBg93lxK6yxv0BZS','ug9ZAxnPifbVChvWoIblAxjP','Cg9WDxbty2fSzq','zM9UDc1ZAxPLoI42nxjLBtTMB250lxDLAwDODdO3mda7CgfKzgLUzZOXChGGnxb4o2jVCMrLCI1YywrPDxm6nhb4oW','C2v0DgLUz3mTCNqTC3bLzwq','tgLUAYbzB3vuDwjL','lMjNlxjLBw92zq','4PUuifn5Dxj1CsbKAxnLBwj1BNLPA2fU','4PUuierODwHHigrPC2vTyNvUEwLRyw4','4PQGig9Wzw5nDwfKEMLUtw9KywWOksb0AwrHAYbKAxrLBxvRyw4','i3jJlw1PBMKTBw9KywWGlNjJlwjNlxrODw1IEW','4PQGihnHDMvlywPPyw4Oksb0AwrHAYbKAxrLBxvRyw4','Aw5Zzxj0qwrQywnLBNrive1m','DhjPBq','i3jJlw1PBMKTBw9KywWGlNjJlxjPyMjVBI1PDgvTEW','4PYfieTHCYbnyxnQAwqGjIbbEwf0l0HHzgL0CYbHA3rPzG','odm0','odiX','4PYfieLTC2fRigrPDgfTCgLSA2fU','i3jJlw1PBMKTBw9KywX7','D2HPDguTC3bHy2u6BM93CMfWoW','8j+sSYbkDwr1BcbeB25HC2K','mtiZ','BNvTyMvY','u2LTCgfU','4PYfie1VzguGqwr6yw4GywT0Awy','BM9Uzq','mta3na','yxvKAw8TChjLlwfKEMfUlwXPC3q','y2HHBMDL','Bg9HzgLUzW','rwrPDcbezxnRCMLWC2KGugvUz3vTDw1HBG','ls1JyxjKlwfJDgL2zs1IzW','vxbSB2fKifzPzgvV','8j+oQcbxyxjUysbcywnRz3jVDw5Kie1VzgfS','yNvSyw4','mtiX','4PQGigfWCgX5s2fQAwfUvxjSkcKGDgLKywSGzgL0zw11A2fU','Dg9Nz2XLlw1VzguTANvTyxq','CMmTyMCTDgH1Bwi','DgfYz2v0','y2vUDgvY','ugLSAwGGvgvTysbhBg9IywW','rwrPDcblB3rHl0XVA2fZAsbnyxnQAwq','phaGy2XHC3m9iNjJlwHPBNqIpKjLBhvTigfKysbNyw1IyxiGyMfJA2DYB3vUzc48l3a+','s3vZDg9TifDHCM5HifrVCgjHCG','mti3','CxvLCNLtzwXLy3rVCKfSBa','8j+xKE+4JYbhyw1IyxiGs2fQAwfUigrPAgfWDxm','s2XPAYb3yxjUysb1BNr1AYbTzw5LCMfWA2fUlG','4PYfierVBMfZAsbHA3rPzG','4PUuifbHCgfUieLUzM8GBM9UywT0Awy','CMmTDg9HC3qTzMi','u3DPDgnOieTHBwvYysaY','lNn3yxrJAc1YDc1IzYaUy29SB3iTC3DHDgnOzxmSifTKyxrHlxn3yxrJAd0ICNqTyMCIxsaUy29SB3iTC3DHDgnOzxm','ywrKrxzLBNrmAxn0zw5LCG','vg9Nz2XLifjLA2fT','4PUuienHCMqGqwr6yw4GzgL0yw1WAwXRyw4','mtbQtwjkvLG','yM9YzgvYoJfWEcbZB2XPzcbYz2jHkdi1nsWYntuSmJu1lc4XktTTyxjNAw4TyM90Dg9ToJzWEdS','Bg9N','vxbSB2fKifzPzgvVieTHAMLHBG','i3jJlw1PBMKTBw9KywWGlNjJlxzVBhvTzs12ywX7y29SB3i6i2fHytTMB250lxnPEMu6lJG1CMvTo21PBI13Awr0AdOZohb4o3rLEhqTywXPz246CMLNAhq7Fq','re9nq29UDgvUDeXVywrLza','vg9Nz2XLifnLBwj1BNLPA2fUienHCMqGqwr6yw4','mZu2ntm0nwzYAxzmwG','Bwf4','mtK4odKWnhfAB0rRzG','lNn3yxrJAc1Hy3rPDMuTy2fYzcaUy29SB3iTC3DHDgnOzxmSifTKyxrHlxn3yxrJAd0Iy2fYzc1Hy3rPDMuTyMCIxsaUy29SB3iTC3DHDgnOzxm','BgCTC3CTyNrUlti','i3jJlw1PBMKTBw9KywWGlNjJlwjNlxrODw1IoMHVDMvYE2jVCMrLCI1JB2XVCJOJztC0yZnJo30','zgv0AwS','4PQGignSzwfYs2fQAwfUsxrLBsGPihrPzgfRigrPDgvTDwTHBG','mta5na','y3nZvgv4Da','mtbWEa','sxnPihrLA3mGyMvYAMfSyw4UlI4','8j+oQcbqAwXPAcbuzw1HieDSB2jHBa','CMmTBwLUAs1TB2rHBa','y2XHC3noyw1L','uMvUDgfUzZOG','yxvKAw8TywXHCM0TBgLZDa','8j+uOcbvA3vYyw4GrM9UDcboyw1HifbLBwf0zxjP','mta2mq','4PUuie1VzguGqwr6yw4GBM9UywT0Awy','yMLUza','8j+uIcbwB2X1BwuGqwr6yw4','rwrPDcbuzwTZifj1BM5PBMCGvgv4Da','mtuZmZyXohHTv0H6Ea','vwT1CMfUiezVBNqGugvTyxrLCMK','yM9YzgvYlxjHzgL1CZOXnhb4o3bHzgrPBMC6mJrWEcaYohb4o3DPzhrOoJqYmhb4oW','A2eTzhvYyxrPB24TDMfS','t3bHy2L0EsbcywnRz3jVDw5Kifj1BM5PBMCGvgv4Da','rwrPDcbezxnRCMLWC2KGrg9UyxnP','i3jJlw1PBMKTBw9KywWGDgv4DgfYzweUCMmTAw5WDxr7CMvZAxPLoNzLCNrPy2fSo21PBI1OzwLNAhq6odbWEdT9','EM9VBs1PBG','8j+oQcbcrYbqB3b1Ca','Aw1N','odqX','yM94lxnOywrVDZOWide2ChGGntbWEcbYz2jHkdaSmcWWlc44nsK7y29SB3i6i2zMzJS','CMLNAhq','yMvMB3jLzw5K','mti1','i3jJlw1PBMKTBw9KywWGlNjJlw9WDgLVBI1SAxn0igXPEW','CMLIyM9UlwzVBNqTC2L6zq','4PQGievSzw1LBIbRB3rHihrPzgfRigrPDgvTDwTHBG','4PQGihnHDMvqyxbHBKLUzM8Oksb0AwrHAYbKAxrLBxvRyw4','zM9UDfnPEMu','rhvYyxnPifrHBxbPBcbqzw1HDgvYAsaOzgv0AwSP','CM93CW','DhLWzq','ntmY','y2fTzxjHlxnLBgvJDc0Y','lNrLBweTy2fYza','rMLYzwjHC2vszw1VDgvcCMLKz2u','vxn0ywr6ic8Gvxn0ywr6ywGGlI4U','4PQGihnHDMveB25HC2KOksb0AwrHAYbKAxrLBxvRyw4','ntiX','zg9UyxnPlwrLC2mTAw5WDxq','4PUuifzPzgvVifnLyMvSDw0Gqwr6yw4GBM9UywT0Awy','4O+XieTLy2vWyxrHBIbsDw5UAw5NifrLEhq','mtj1B09jEKC','8j+uIcbwB2X1BwuGqwXHCM0','8j+uLYbmAw5RifLVDvr1yMuGuhjLlufKEMfU','uhjHDgLUAMf1ifbVChvWie5VDgLMAwTHC2K','ote3nZyZr294rLPZ','s3vZDg9TifDHCM5HienHCMqGv2fRDhu','lNn3yxrJAc1WB3b1CcaUy29SB3iTC3DHDgnOzxmSifTKyxrHlxn3yxrJAd0ICg9WDxaTyMCIxsaUy29SB3iTC3DHDgnOzxm','i3jJlw1PBMKTBw9KywWGlNjJlxzVBhvTzs13CMfWEW','8j+uHIbpCgfJAxr5iejhifbVChvW','vxbSB2fKief1zgLViefKEMfU','yxvKAw8Tywr6yw4TBgLZDa','8j+sSYbezxnRCMLWC2KGrg9UyxnP','Dg9Nz2XLlwrVBMfZAq','zNvUy3rPB24','DxbSB2fKlwTHAMLHBI12AwrLBW','4PQGieLUChv0igzPBguG','odiZ','i3jJlw1PBMKTBw9KywWGlNjJlwj0BI1YB3D7','Aw1Hz2u','qNvRysbiyxjPiejLC2fYieLZBgfT','uMvTB3rLq29UDhjVBa','vg9Nz2XLie1VzguGs2fQAwfU','u2XPzguGs2LYAq','ywr6yw4','CMmTyNrUlwnHBMnLBa','y2fYzgTPCMK','zMXPCa','CMmTA2v5','8j+xKE+4JYbvuKWGu3rYzwfTieTHAMLHBIbKAwHHChvZ','yMCTChjLDMLLDY1SAxn0','CMmTB3b0Aw9UlwXPC3q','rwrPDcbkDwr1BcbeB25HC2K','B3bHy2L0Eq','4PUuierVBMfZAsbUB25HA3rPzG','ChjLlwfKEMfU','EM9VBs1VDxq','rhvYyxnPifnSAwrLiejHy2TNCM91BMq','8j+tNsbsDw5UAw5NifrLEhq','y2fTzxjHlxnLBgvJDc0Z','DMLKzw8TyMvMB3jLlxnVDxjJzq','A2v5','ls1JyxjKCY1IzY1VCgfJAxr5','C3r5Bgu','AgvHza','qMf0ywW','vxbSB2fKifzPzgvVifnLyMvSDw0Gqwr6yw4','i3jJlw1PBMKTBw9KywWGlNjJlwLUChv0EW','A2fQAwfUlxzPzgvVlxvYBa','yNrUlw11BgfPlwTHBwvYyq','Dgv4DefSAwDU','D2LKDgG6mJzWEdTOzwLNAhq6mJzWEdTIB3jKzxiTCMfKAxvZoJvWEdTJDxjZB3i6Cg9PBNrLCJS','CMLIyM9UlxrLBweTz3jPza','CMmTBwLUAs1TB2rHBc1VDMvYBgf5','C3jJ','nteZ','y2XPy2S','vwT1CMfUiezVBNqGvw5PDMvYC2fSicGLkq','A2fQAwfUlxbLBwf0zxjPlwr1CMf0Aw9U','nZeW','BgLUAW','Cg9ZAxrPB246CMvSyxrPDMu7D2LKDgG6otbWEdTOzwLNAhq6nJbWEdTIB3jKzxiTCMfKAxvZoJzWEdTVDMvYzMXVDZPOAwrKzw47','C2v0DgLUz3mTyMCTC3bLzwq','4PYfifrYyw5ZAxnPoIbtDgf0Axm','lxDLyMTPDc1IB3GTzMXLEdOXoY13zwjRAxqTzMXLEdOXo2zSzxG6mtS','vgvTCgXHDguGq2fYzcbbDgfZ','ls10B3bIyxiTyMC'];_0x4349=function(){return _0x5e69b3;};return _0x4349();}
+/* ============================================================
+   REMOTE CODES — remote-codes.js  v1.0 (ES5)
+   Daftarkan kode shortcut remote ke RemoteControl.register()
+   ============================================================ */
+
+   (function () {
+    'use strict';
+  
+    /* ── Helpers UI ─────────────────────────────────────────── */
+  
+    function rcToast(msg) {
+      if (typeof showToast === 'function') { showToast(msg); return; }
+      var el = document.getElementById('rc-toast-fb');
+      if (!el) return;
+      el.textContent = msg;
+      el.style.display = 'block';
+      el.style.opacity = '1';
+      clearTimeout(el._t);
+      el._t = setTimeout(function () {
+        el.style.transition = 'opacity .4s';
+        el.style.opacity = '0';
+        setTimeout(function () { el.style.display = 'none'; el.style.transition = ''; }, 400);
+      }, 2500);
+    }
+  
+    /* ── Modal Engine ───────────────────────────────────────── */
+    var RC_MODAL_ID = 'rc-mini-modal';
+  
+    function injectModalStyles() {
+      if (document.getElementById('rc-modal-style')) return;
+      var s = document.createElement('style');
+      s.id = 'rc-modal-style';
+      s.textContent = [
+        '#rc-mini-modal-overlay{',
+          'position:fixed;top:0;right:0;bottom:0;left:0;',
+          'background:rgba(0,0,0,.72);z-index:2000;',
+          'display:-webkit-box;display:-webkit-flex;display:flex;',
+          '-webkit-box-align:center;-webkit-align-items:center;align-items:center;',
+          '-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;',
+        '}',
+        '#rc-mini-modal{',
+          'background:#1a1a2e;border:1px solid rgba(255,255,255,.15);',
+          'border-radius:14px;padding:24px 28px;width:420px;',
+          'max-width:92vw;max-height:80vh;overflow-y:auto;',
+          'box-shadow:0 16px 50px rgba(0,0,0,.85);color:#fff;',
+          'font-family:Poppins,sans-serif;',
+        '}',
+        '#rc-mini-modal h3{',
+          'font-size:1.05rem;font-weight:700;color:#FFD700;',
+          'margin-bottom:16px;border-bottom:1px solid rgba(255,255,255,.1);',
+          'padding-bottom:10px;',
+        '}',
+        '#rc-mini-modal .rc-input{',
+          'width:100%;background:rgba(255,255,255,.07);',
+          'border:1px solid rgba(255,255,255,.2);border-radius:8px;',
+          'padding:10px 14px;color:#fff;font-size:1rem;',
+          'font-family:Poppins,sans-serif;outline:none;box-sizing:border-box;',
+        '}',
+        '#rc-mini-modal .rc-input:focus{border-color:#F5A623;}',
+        '#rc-mini-modal textarea.rc-input{resize:vertical;min-height:80px;}',
+        '#rc-mini-modal .rc-hint{font-size:.75rem;color:rgba(255,255,255,.5);margin-top:8px;}',
+        '#rc-mini-modal .rc-btn-row{',
+          'display:-webkit-box;display:-webkit-flex;display:flex;',
+          'gap:8px;margin-top:18px;-webkit-flex-wrap:wrap;flex-wrap:wrap;',
+          '-webkit-box-pack:end;-webkit-justify-content:flex-end;justify-content:flex-end;',
+        '}',
+        '#rc-mini-modal .rc-btn{',
+          'background:#F5A623;color:#fff;border:none;padding:9px 22px;',
+          'border-radius:8px;font-weight:600;cursor:pointer;',
+          'font-family:Poppins,sans-serif;font-size:.9rem;',
+        '}',
+        '#rc-mini-modal .rc-btn-cancel{',
+          'background:rgba(255,255,255,.1);color:#fff;',
+          'border:1px solid rgba(255,255,255,.2);padding:9px 18px;',
+          'border-radius:8px;cursor:pointer;font-family:Poppins,sans-serif;font-size:.9rem;',
+        '}',
+        '#rc-mini-modal .rc-option-list{list-style:none;margin:0;padding:0;}',
+        '#rc-mini-modal .rc-option-list li{',
+          'display:-webkit-box;display:-webkit-flex;display:flex;',
+          '-webkit-box-align:center;-webkit-align-items:center;align-items:center;',
+          'gap:10px;padding:10px 12px;border-radius:8px;cursor:pointer;',
+          'border:1px solid rgba(255,255,255,.1);margin-bottom:6px;',
+          '-webkit-transition:background .15s;transition:background .15s;',
+        '}',
+        '#rc-mini-modal .rc-option-list li:hover{background:rgba(255,255,255,.1);}',
+        '#rc-mini-modal .rc-option-list li.rc-active-opt{',
+          'background:rgba(245,166,35,.2);border-color:#F5A623;',
+        '}',
+        '#rc-mini-modal .rc-option-list .rc-key{',
+          'width:24px;height:24px;border-radius:5px;',
+          'background:rgba(255,255,255,.15);color:#FFD700;',
+          'font-size:.78rem;font-weight:700;text-align:center;line-height:24px;',
+          '-webkit-flex-shrink:0;flex-shrink:0;',
+        '}',
+        '#rc-mini-modal .rc-volume-wrap{',
+          'display:-webkit-box;display:-webkit-flex;display:flex;',
+          '-webkit-box-align:center;-webkit-align-items:center;align-items:center;',
+          'gap:12px;',
+        '}',
+        '#rc-mini-modal .rc-volume-wrap input[type=range]{',
+          '-webkit-box-flex:1;-webkit-flex:1;flex:1;',
+        '}',
+        '#rc-mini-modal .rc-volume-val{color:#aaa;font-size:.85rem;min-width:38px;text-align:right;}',
+        '#rc-mini-modal .rc-swatch-grid{',
+          'display:-webkit-box;display:-webkit-flex;display:flex;',
+          '-webkit-flex-wrap:wrap;flex-wrap:wrap;gap:8px;margin-top:4px;',
+        '}',
+        '#rc-mini-modal .rc-swatch-item{',
+          'width:26px;height:26px;border-radius:5px;cursor:pointer;',
+          'border:2px solid transparent;',
+          '-webkit-transition:border-color .15s,-webkit-transform .1s;transition:border-color .15s,transform .1s;',
+        '}',
+        '#rc-mini-modal .rc-swatch-item:hover,#rc-mini-modal .rc-swatch-item.rc-sw-sel{',
+          'border-color:#fff;-webkit-transform:scale(1.2);transform:scale(1.2);',
+        '}',
+        '#rc-mini-modal .rc-bg-grid{',
+          'display:-webkit-box;display:-webkit-flex;display:flex;',
+          '-webkit-flex-wrap:wrap;flex-wrap:wrap;gap:8px;',
+        '}',
+        '#rc-mini-modal .rc-bg-thumb{',
+          'position:relative;width:90px;height:60px;border-radius:6px;overflow:hidden;',
+          'border:2px solid rgba(255,255,255,.2);cursor:pointer;',
+        '}',
+        '#rc-mini-modal .rc-bg-thumb img{width:100%;height:100%;object-fit:cover;}',
+        '#rc-mini-modal .rc-bg-del-badge{',
+          'position:absolute;top:2px;left:2px;',
+          'background:rgba(0,0,0,.7);color:#FFD700;',
+          'font-size:.65rem;font-weight:700;padding:1px 5px;border-radius:4px;',
+        '}',
+        '#rc-mini-modal .rc-bg-thumb:hover{border-color:#e74c3c;}',
+        '#rc-mini-modal .rc-ribbon-grid{',
+          'display:-webkit-box;display:-webkit-flex;display:flex;',
+          '-webkit-flex-wrap:wrap;flex-wrap:wrap;gap:8px;',
+        '}',
+        '#rc-mini-modal .rc-ribbon-item{',
+          'border-radius:8px;padding:10px 14px;cursor:pointer;',
+          'border:2px solid transparent;font-size:.82rem;font-weight:600;',
+          '-webkit-transition:border-color .15s,-webkit-transform .1s;transition:border-color .15s,transform .1s;',
+          'white-space:nowrap;',
+        '}',
+        '#rc-mini-modal .rc-ribbon-item.rc-ribbon-sel{border-color:#fff;}'
+      ].join('');
+      document.head.appendChild(s);
+    }
+  
+    /* Buka modal mini */
+    function openMiniModal(titleText, bodyFn, onClose) {
+      closeRcModal();
+      injectModalStyles();
+  
+      var overlay = document.createElement('div');
+      overlay.id = 'rc-mini-modal-overlay';
+  
+      var box = document.createElement('div');
+      box.id = RC_MODAL_ID;
+  
+      var h = document.createElement('h3');
+      h.textContent = titleText;
+      box.appendChild(h);
+  
+      bodyFn(box);
+  
+      overlay.appendChild(box);
+      document.body.appendChild(overlay);
+  
+      // tutup klik di luar box
+      overlay.addEventListener('click', function (e) {
+        if (e.target === overlay) { closeRcModal(); if (onClose) onClose(); }
+      });
+  
+      // tutup Escape
+      overlay._keyHandler = function (e) {
+        if (e.key === 'Escape') { closeRcModal(); if (onClose) onClose(); }
+      };
+      window.addEventListener('keydown', overlay._keyHandler);
+  
+      // fokus input pertama jika ada
+      setTimeout(function () {
+        var inp = box.querySelector('input:not([type=range]):not([type=checkbox]):not([type=file]), textarea');
+        if (inp) inp.focus();
+      }, 60);
+  
+      return box;
+    }
+  
+    function closeRcModal() {
+      var overlay = document.getElementById('rc-mini-modal-overlay');
+      if (!overlay) return;
+      if (overlay._keyHandler) window.removeEventListener('keydown', overlay._keyHandler);
+      document.body.removeChild(overlay);
+    }
+  
+    /* Baris tombol OK + Batal */
+    function addBtnRow(box, onOk, okLabel) {
+      var row = document.createElement('div');
+      row.className = 'rc-btn-row';
+  
+      var btnCancel = document.createElement('button');
+      btnCancel.className = 'rc-btn-cancel';
+      btnCancel.textContent = 'Batal';
+      btnCancel.onclick = closeRcModal;
+  
+      var btnOk = document.createElement('button');
+      btnOk.className = 'rc-btn';
+      btnOk.textContent = okLabel || 'Simpan';
+      btnOk.onclick = function () { onOk(); closeRcModal(); };
+  
+      row.appendChild(btnCancel);
+      row.appendChild(btnOk);
+      box.appendChild(row);
+    }
+  
+    /* Input teks / textarea sederhana */
+    function modalTextInput(title, isTextarea, placeholder, onSave) {
+      openMiniModal(title, function (box) {
+        var inp = document.createElement(isTextarea ? 'textarea' : 'input');
+        inp.className = 'rc-input';
+        if (!isTextarea) inp.type = 'text';
+        inp.placeholder = placeholder || '';
+        box.appendChild(inp);
+  
+        addBtnRow(box, function () {
+          var val = inp.value.trim();
+          if (val) onSave(val);
+        });
+  
+        inp.addEventListener('keydown', function (e) {
+          if (!isTextarea && e.key === 'Enter') { e.preventDefault(); var val = inp.value.trim(); if (val) { onSave(val); closeRcModal(); } }
+        });
+      });
+    }
+  
+    /* Input angka kosong (tanpa default) */
+    function modalNumberInput(title, min, max, unit, onSave) {
+      openMiniModal(title, function (box) {
+        var inp = document.createElement('input');
+        inp.className = 'rc-input';
+        inp.type = 'number';
+        inp.placeholder = 'Masukkan angka' + (unit ? ' (' + unit + ')' : '');
+        inp.min = min;
+        inp.max = max;
+        inp.value = '';
+        box.appendChild(inp);
+  
+        var hint = document.createElement('p');
+        hint.className = 'rc-hint';
+        hint.textContent = 'Rentang: ' + min + ' – ' + max + (unit ? ' ' + unit : '');
+        box.appendChild(hint);
+  
+        addBtnRow(box, function () {
+          var val = parseFloat(inp.value);
+          if (!isNaN(val)) onSave(val);
+        });
+  
+        inp.addEventListener('keydown', function (e) {
+          if (e.key === 'Enter') { e.preventDefault(); var val = parseFloat(inp.value); if (!isNaN(val)) { onSave(val); closeRcModal(); } }
+        });
+      });
+    }
+  
+    /* Daftar opsi dengan nomor tombol */
+    function modalOptionList(title, options, getActiveFn, onSelect) {
+      openMiniModal(title, function (box) {
+        var hint = document.createElement('p');
+        hint.className = 'rc-hint';
+        hint.textContent = 'Tekan angka pada remote atau klik untuk memilih.';
+        hint.style.marginBottom = '10px';
+        box.appendChild(hint);
+  
+        var ul = document.createElement('ul');
+        ul.className = 'rc-option-list';
+  
+        options.forEach(function (opt, i) {
+          var li = document.createElement('li');
+          var keyNum = i + 1;
+          if (opt.key !== undefined) keyNum = opt.key;
+  
+          if (getActiveFn) {
+            var active = getActiveFn();
+            if (active !== null && active !== undefined && (active === opt.value || active === opt.label)) {
+              li.className = 'rc-active-opt';
+            }
+          }
+  
+          var badge = document.createElement('span');
+          badge.className = 'rc-key';
+          badge.textContent = keyNum;
+  
+          var txt = document.createElement('span');
+          txt.textContent = opt.label;
+  
+          li.appendChild(badge);
+          li.appendChild(txt);
+          ul.appendChild(li);
+  
+          li.addEventListener('click', function () { onSelect(opt.value !== undefined ? opt.value : opt.label); closeRcModal(); });
+        });
+  
+        box.appendChild(ul);
+  
+        // tangkap angka keyboard saat modal ini terbuka
+        var numHandler = function (e) {
+          if (/^\d$/.test(e.key)) {
+            var n = parseInt(e.key, 10);
+            var opt2 = null;
+            options.forEach(function (o) {
+              var k = (o.key !== undefined) ? o.key : (options.indexOf(o) + 1);
+              if (k === n) opt2 = o;
+            });
+            if (opt2) {
+              e.preventDefault();
+              e.stopPropagation();
+              onSelect(opt2.value !== undefined ? opt2.value : opt2.label);
+              closeRcModal();
+              window.removeEventListener('keydown', numHandler, true);
+            }
+          }
+        };
+        window.addEventListener('keydown', numHandler, true);
+  
+        // hapus handler saat modal tutup
+        var overlay = document.getElementById('rc-mini-modal-overlay');
+        if (overlay) {
+          var origKey = overlay._keyHandler;
+          overlay._keyHandler = function (e) {
+            if (e.key === 'Escape') {
+              window.removeEventListener('keydown', numHandler, true);
+              if (origKey) origKey(e);
+            }
+          };
+          window.removeEventListener('keydown', origKey);
+          window.addEventListener('keydown', overlay._keyHandler);
+        }
+  
+        var btnCancel = document.createElement('div');
+        btnCancel.className = 'rc-btn-row';
+        var bc = document.createElement('button');
+        bc.className = 'rc-btn-cancel';
+        bc.textContent = 'Batal';
+        bc.onclick = function () { window.removeEventListener('keydown', numHandler, true); closeRcModal(); };
+        btnCancel.appendChild(bc);
+        box.appendChild(btnCancel);
+      });
+    }
+  
+    /* Modal volume */
+    function modalVolume(title, rangeId, valDisplayId) {
+      openMiniModal(title, function (box) {
+        var srcRange = document.getElementById(rangeId);
+        var srcVal = document.getElementById(valDisplayId);
+        var curVal = srcRange ? parseInt(srcRange.value, 10) : 100;
+  
+        var wrap = document.createElement('div');
+        wrap.className = 'rc-volume-wrap';
+  
+        var icon = document.createElement('span');
+        icon.textContent = '🔈';
+        icon.style.fontSize = '1.1rem';
+  
+        var range = document.createElement('input');
+        range.type = 'range';
+        range.className = 'rc-input';
+        range.style.cssText = '-webkit-box-flex:1;-webkit-flex:1;flex:1;';
+        range.min = 0;
+        range.max = 100;
+        range.value = curVal;
+  
+        var valTxt = document.createElement('span');
+        valTxt.className = 'rc-volume-val';
+        valTxt.textContent = curVal + '%';
+  
+        range.addEventListener('input', function () {
+          valTxt.textContent = range.value + '%';
+        });
+  
+        wrap.appendChild(icon);
+        wrap.appendChild(range);
+        wrap.appendChild(valTxt);
+        box.appendChild(wrap);
+  
+        var hint = document.createElement('p');
+        hint.className = 'rc-hint';
+        hint.textContent = '◀ ▶ untuk mengatur, lalu Simpan.';
+        box.appendChild(hint);
+  
+        addBtnRow(box, function () {
+          var v = parseInt(range.value, 10);
+          if (srcRange) { srcRange.value = v; srcRange.dispatchEvent(new Event('input', { bubbles: true })); }
+          if (srcVal) srcVal.textContent = v + '%';
+          if (typeof setAudioVolume === 'function') {
+            var mapId = {
+              'vol-pre-adzan': 'pre-adzan',
+              'vol-adzan-settings': 'adzan',
+              'vol-adzan': 'adzan',
+              'vol-alarm': 'alarm'
+            };
+            var key = mapId[rangeId];
+            if (key) setAudioVolume(key, v);
+          }
+        });
+  
+        setTimeout(function () { range.focus(); }, 60);
+      });
+    }
+  
+    /* Modal daftar audio */
+    function modalAudioList(title, listId) {
+      openMiniModal(title, function (box) {
+        var src = document.getElementById(listId);
+        if (!src || !src.innerHTML.trim()) {
+          var empty = document.createElement('p');
+          empty.className = 'rc-hint';
+          empty.style.textAlign = 'center';
+          empty.style.padding = '16px 0';
+          empty.textContent = 'Belum ada audio. Upload dulu.';
+          box.appendChild(empty);
+        } else {
+          var clone = document.createElement('div');
+          clone.innerHTML = src.innerHTML;
+          // salin event listeners dengan onclick attribute
+          var items = src.querySelectorAll('.audio-item');
+          items.forEach(function (item) {
+            var div = document.createElement('div');
+            div.className = item.className;
+            div.innerHTML = item.innerHTML;
+            div.onclick = (function (orig) {
+              return function () { orig.click(); closeRcModal(); };
+            }(item));
+            clone.appendChild(div);
+          });
+          box.appendChild(clone);
+        }
+  
+        var btnRow = document.createElement('div');
+        btnRow.className = 'rc-btn-row';
+        var bc = document.createElement('button');
+        bc.className = 'rc-btn-cancel';
+        bc.textContent = 'Tutup';
+        bc.onclick = closeRcModal;
+        btnRow.appendChild(bc);
+        box.appendChild(btnRow);
+      });
+    }
+  
+    /* Modal hapus background */
+    function modalBgList() {
+      openMiniModal('🖼 Hapus Gambar Background', function (box) {
+        var hint = document.createElement('p');
+        hint.className = 'rc-hint';
+        hint.style.marginBottom = '10px';
+        hint.textContent = 'Tekan nomor gambar di remote, atau klik gambar untuk menghapus.';
+        box.appendChild(hint);
+  
+        var list = document.getElementById('bg-preview-list');
+        if (!list) { box.insertAdjacentHTML('beforeend', '<p class="rc-hint">bg-preview-list tidak ditemukan.</p>'); return; }
+  
+        var items = list.querySelectorAll('.bg-preview-item');
+        if (!items.length) { box.insertAdjacentHTML('beforeend', '<p class="rc-hint">Belum ada gambar background.</p>'); return; }
+  
+        var grid = document.createElement('div');
+        grid.className = 'rc-bg-grid';
+  
+        var numMap = {};
+  
+        for (var i = 0; i < items.length; i++) {
+          (function (item, idx) {
+            var thumb = document.createElement('div');
+            thumb.className = 'rc-bg-thumb';
+  
+            var badge = document.createElement('span');
+            badge.className = 'rc-bg-del-badge';
+            badge.textContent = String(idx + 1);
+  
+            var img = item.querySelector('img');
+            var imgClone = document.createElement('img');
+            if (img) imgClone.src = img.src;
+  
+            thumb.appendChild(imgClone);
+            thumb.appendChild(badge);
+            grid.appendChild(thumb);
+  
+            numMap[idx + 1] = item;
+  
+            thumb.addEventListener('click', function () {
+              var removeBtn = item.querySelector('.bg-remove');
+              if (removeBtn) removeBtn.click();
+              closeRcModal();
+            });
+          }(items[i], i));
+        }
+  
+        box.appendChild(grid);
+  
+        var numHandler = function (e) {
+          if (/^\d$/.test(e.key)) {
+            var n = parseInt(e.key, 10);
+            if (numMap[n]) {
+              e.preventDefault();
+              e.stopPropagation();
+              var rb = numMap[n].querySelector('.bg-remove');
+              if (rb) rb.click();
+              window.removeEventListener('keydown', numHandler, true);
+              closeRcModal();
+            }
+          }
+        };
+        window.addEventListener('keydown', numHandler, true);
+  
+        var btnRow = document.createElement('div');
+        btnRow.className = 'rc-btn-row';
+        var bc = document.createElement('button');
+        bc.className = 'rc-btn-cancel';
+        bc.textContent = 'Batal';
+        bc.onclick = function () { window.removeEventListener('keydown', numHandler, true); closeRcModal(); };
+        btnRow.appendChild(bc);
+        box.appendChild(btnRow);
+      });
+    }
+  
+    /* Modal pilih tema global (clone dari tema-grid) */
+    function modalTemaGlobal() {
+      openMiniModal('🎨 Pilih Tema Global', function (box) {
+        var src = document.getElementById('tema-grid');
+        if (!src) { box.insertAdjacentHTML('beforeend', '<p class="rc-hint">tema-grid tidak ditemukan.</p>'); return; }
+  
+        var hint = document.createElement('p');
+        hint.className = 'rc-hint';
+        hint.style.marginBottom = '10px';
+        hint.textContent = 'Klik atau navigasi untuk memilih tema.';
+        box.appendChild(hint);
+  
+        var wrap = document.createElement('div');
+        wrap.style.cssText = 'display:-webkit-box;display:-webkit-flex;display:flex;-webkit-flex-wrap:wrap;flex-wrap:wrap;gap:8px;';
+  
+        var cards = src.querySelectorAll('.tema-card');
+        cards.forEach(function (card) {
+          var cl = card.cloneNode(true);
+          cl.onclick = (function (orig) {
+            return function () { orig.click(); closeRcModal(); };
+          }(card));
+          wrap.appendChild(cl);
+        });
+  
+        box.appendChild(wrap);
+  
+        var btnRow = document.createElement('div');
+        btnRow.className = 'rc-btn-row';
+        var bc = document.createElement('button');
+        bc.className = 'rc-btn-cancel';
+        bc.textContent = 'Tutup';
+        bc.onclick = closeRcModal;
+        btnRow.appendChild(bc);
+        box.appendChild(btnRow);
+      });
+    }
+  
+    /* Modal swatch warna (clone dari container swatch) */
+    function modalSwatch(title, swatchContainerSelector, cssVar) {
+      openMiniModal(title, function (box) {
+        var src = document.querySelector(swatchContainerSelector);
+        if (!src) { box.insertAdjacentHTML('beforeend', '<p class="rc-hint">Swatch tidak ditemukan.</p>'); return; }
+  
+        var hint = document.createElement('p');
+        hint.className = 'rc-hint';
+        hint.style.marginBottom = '10px';
+        hint.textContent = 'Klik warna untuk menerapkan.';
+        box.appendChild(hint);
+  
+        var wrap = document.createElement('div');
+        wrap.className = 'rc-swatch-grid';
+  
+        var swatches = src.querySelectorAll('.color-swatch');
+        swatches.forEach(function (sw) {
+          var cl = sw.cloneNode(true);
+          cl.style.backgroundColor = sw.style.backgroundColor || getComputedStyle(sw).backgroundColor;
+          cl.onclick = (function (orig) {
+            return function () { orig.click(); closeRcModal(); };
+          }(sw));
+          wrap.appendChild(cl);
+        });
+  
+        box.appendChild(wrap);
+  
+        var btnRow = document.createElement('div');
+        btnRow.className = 'rc-btn-row';
+        var bc = document.createElement('button');
+        bc.className = 'rc-btn-cancel';
+        bc.textContent = 'Tutup';
+        bc.onclick = closeRcModal;
+        btnRow.appendChild(bc);
+        box.appendChild(btnRow);
+      });
+    }
+  
+    /* Modal opacity (input range 0-100) */
+    function modalOpacity(title, cssVarName, displayId) {
+      openMiniModal(title, function (box) {
+        var root = document.documentElement;
+        var curStr = getComputedStyle(root).getPropertyValue(cssVarName).trim();
+        var cur = curStr ? Math.round(parseFloat(curStr) * 100) : 100;
+  
+        var wrap = document.createElement('div');
+        wrap.className = 'rc-volume-wrap';
+  
+        var icon = document.createElement('span');
+        icon.textContent = '🔆';
+        icon.style.fontSize = '1.1rem';
+  
+        var range = document.createElement('input');
+        range.type = 'range';
+        range.style.cssText = '-webkit-box-flex:1;-webkit-flex:1;flex:1;';
+        range.min = 0;
+        range.max = 100;
+        range.value = cur;
+  
+        var valTxt = document.createElement('span');
+        valTxt.className = 'rc-volume-val';
+        valTxt.textContent = cur + '%';
+  
+        range.addEventListener('input', function () {
+          valTxt.textContent = range.value + '%';
+        });
+  
+        wrap.appendChild(icon);
+        wrap.appendChild(range);
+        wrap.appendChild(valTxt);
+        box.appendChild(wrap);
+  
+        addBtnRow(box, function () {
+          var v = parseInt(range.value, 10) / 100;
+          root.style.setProperty(cssVarName, v);
+          if (displayId) {
+            var el = document.getElementById(displayId);
+            if (el) el.value = range.value;
+          }
+        });
+  
+        setTimeout(function () { range.focus(); }, 60);
+      });
+    }
+  
+    /* Modal ribbon tema */
+    function modalRibbonTema() {
+      openMiniModal('🎓 Pilih Tema Ribbon', function (box) {
+        var src = document.getElementById('ribbon-tema-grid');
+        if (!src) { box.insertAdjacentHTML('beforeend', '<p class="rc-hint">ribbon-tema-grid tidak ditemukan.</p>'); return; }
+  
+        var hint = document.createElement('p');
+        hint.className = 'rc-hint';
+        hint.style.marginBottom = '10px';
+        hint.textContent = 'Klik untuk memilih tema warna ribbon.';
+        box.appendChild(hint);
+  
+        var wrap = document.createElement('div');
+        wrap.className = 'rc-ribbon-grid';
+  
+        var items = src.querySelectorAll('[data-tema], .rc-ribbon-tema-item, button, div');
+        if (!items.length) {
+          // fallback: clone seluruh grid
+          var cl = src.cloneNode(true);
+          wrap.appendChild(cl);
+        } else {
+          items.forEach(function (item) {
+            if (item === src) return;
+            var cl = item.cloneNode(true);
+            cl.onclick = (function (orig) {
+              return function () { orig.click(); closeRcModal(); };
+            }(item));
+            wrap.appendChild(cl);
+          });
+        }
+  
+        box.appendChild(wrap);
+  
+        var btnRow = document.createElement('div');
+        btnRow.className = 'rc-btn-row';
+        var bc = document.createElement('button');
+        bc.className = 'rc-btn-cancel';
+        bc.textContent = 'Tutup';
+        bc.onclick = closeRcModal;
+        btnRow.appendChild(bc);
+        box.appendChild(btnRow);
+      });
+    }
+  
+    /* Modal font size */
+    function modalFontSize() {
+      openMiniModal('🔠 Ukuran Font Nama Pemateri', function (box) {
+        var srcRange = document.getElementById('ribbon-font-size');
+        var srcVal = document.getElementById('ribbon-font-size-val');
+        var cur = srcRange ? parseInt(srcRange.value, 10) : 17;
+  
+        var wrap = document.createElement('div');
+        wrap.className = 'rc-volume-wrap';
+  
+        var icon = document.createElement('span');
+        icon.textContent = 'A';
+        icon.style.cssText = 'font-size:1.1rem;font-weight:700;';
+  
+        var range = document.createElement('input');
+        range.type = 'range';
+        range.style.cssText = '-webkit-box-flex:1;-webkit-flex:1;flex:1;';
+        range.min = 12;
+        range.max = 48;
+        range.value = cur;
+  
+        var valTxt = document.createElement('span');
+        valTxt.className = 'rc-volume-val';
+        valTxt.textContent = cur + 'px';
+  
+        range.addEventListener('input', function () {
+          valTxt.textContent = range.value + 'px';
+          if (typeof previewRibbonFontSize === 'function') previewRibbonFontSize(range.value);
+        });
+  
+        wrap.appendChild(icon);
+        wrap.appendChild(range);
+        wrap.appendChild(valTxt);
+        box.appendChild(wrap);
+  
+        addBtnRow(box, function () {
+          var v = parseInt(range.value, 10);
+          if (srcRange) { srcRange.value = v; srcRange.dispatchEvent(new Event('input', { bubbles: true })); }
+          if (srcVal) srcVal.textContent = v + 'px';
+          if (typeof previewRibbonFontSize === 'function') previewRibbonFontSize(v);
+        });
+  
+        setTimeout(function () { range.focus(); }, 60);
+      });
+    }
+  
+    /* ── Toggle helpers ─────────────────────────────────────── */
+  
+    function toggleCheckbox(id, labelOn, labelOff, onChangeFn) {
+      var cb = document.getElementById(id);
+      if (!cb) { rcToast('⚠ Elemen ' + id + ' tidak ditemukan'); return; }
+      cb.checked = !cb.checked;
+      cb.dispatchEvent(new Event('change', { bubbles: true }));
+      if (onChangeFn) onChangeFn(cb.checked);
+      rcToast(cb.checked ? (labelOn || '✅ Aktif') : (labelOff || '⛔ Nonaktif'));
+    }
+  
+    function triggerFileInput(id) {
+      var el = document.getElementById(id);
+      if (!el) { rcToast('⚠ Input file ' + id + ' tidak ditemukan'); return; }
+      try { el.click(); } catch (e) { rcToast('⚠ Tidak bisa membuka file picker'); }
+    }
+  
+    function setSelectByValue(id, val) {
+      var sel = document.getElementById(id);
+      if (!sel) { rcToast('⚠ Select ' + id + ' tidak ditemukan'); return; }
+      sel.value = val;
+      sel.dispatchEvent(new Event('change', { bubbles: true }));
+    }
+  
+    function clickElement(id) {
+      var el = document.getElementById(id);
+      if (!el) { rcToast('⚠ Elemen ' + id + ' tidak ditemukan'); return; }
+      el.click();
+    }
+  
+    function openSelectPicker(id) {
+      var sel = document.getElementById(id);
+      if (!sel) { rcToast('⚠ Select ' + id + ' tidak ditemukan'); return; }
+      sel.focus();
+      try { if (typeof sel.showPicker === 'function') sel.showPicker(); else sel.click(); } catch (e) { sel.click(); }
+    }
+  
+    /* ── Kode Shortcut ──────────────────────────────────────── */
+  
+    function register() {
+      if (!window.RemoteControl || typeof window.RemoteControl.register !== 'function') {
+        setTimeout(register, 200);
+        return;
+      }
+      var R = window.RemoteControl.register.bind(window.RemoteControl);
+  
+      /* ──────────── 2x : Kartu Adzan ──────────── */
+      R('21', 'Toggle Tampilkan Dhuha', function () {
+        toggleCheckbox('toggle-dhuha', '✅ Dhuha ditampilkan', '⛔ Dhuha disembunyikan', function (checked) {
+          if (typeof toggleDhuha === 'function') toggleDhuha({ checked: checked });
+        });
+      });
+
+      R('22', 'Toggle Mode Jum\'at', function () {
+        toggleCheckbox('toggle-mode-jumat', "✅ Mode Jum'at aktif", "⛔ Mode Jum'at nonaktif", function (checked) {
+          if (typeof toggleModeJumat === 'function') toggleModeJumat({ checked: checked });
+        });
+      });
+
+      R('23', 'Toggle Tampilkan Imsak', function () {
+        toggleCheckbox('toggle-imsak', '✅ Imsak ditampilkan', '⛔ Imsak disembunyikan', function (checked) {
+          if (typeof toggleImsak === 'function') toggleImsak({ checked: checked });
+        });
+      });
+
+      R('24', 'Toggle Tampilkan Syuruq', function () {
+        toggleCheckbox('toggle-syuruq', '✅ Syuruq ditampilkan', '⛔ Syuruq disembunyikan', function (checked) {
+          if (typeof toggleSyuruq === 'function') toggleSyuruq({ checked: checked });
+        });
+      });
+  
+      /* ──────────── 3x : Running Text ──────────── */
+      R('31', 'Edit Teks Running Text', function () {
+        var src = document.getElementById('settings-rt-text');
+        openMiniModal('📝 Running Text', function (box) {
+          var ta = document.createElement('textarea');
+          ta.className = 'rc-input';
+          ta.rows = 4;
+          ta.placeholder = 'Isi teks berjalan...';
+          ta.value = src ? src.value : '';
+          box.appendChild(ta);
+  
+          addBtnRow(box, function () {
+            if (src) src.value = ta.value;
+            if (typeof saveRunningText === 'function') saveRunningText();
+            else rcToast('⚠ saveRunningText() tidak ditemukan');
+          });
+        });
+      });
+  
+      R('32', 'Kecepatan Running Text', function () {
+        var src = document.getElementById('settings-rt-speed');
+        var srcVal = document.getElementById('rt-speed-val');
+        var cur = src ? parseInt(src.value, 10) : 60;
+        openMiniModal('⏱ Kecepatan Running Text', function (box) {
+          var wrap = document.createElement('div');
+          wrap.className = 'rc-volume-wrap';
+          var icon = document.createElement('span');
+          icon.textContent = '🚀';
+          icon.style.fontSize = '1rem';
+          var range = document.createElement('input');
+          range.type = 'range';
+          range.style.cssText = '-webkit-box-flex:1;-webkit-flex:1;flex:1;';
+          range.min = 20;
+          range.max = 200;
+          range.value = cur;
+          var valTxt = document.createElement('span');
+          valTxt.className = 'rc-volume-val';
+          valTxt.textContent = cur + 's';
+          range.addEventListener('input', function () { valTxt.textContent = range.value + 's'; });
+          wrap.appendChild(icon); wrap.appendChild(range); wrap.appendChild(valTxt);
+          box.appendChild(wrap);
+          var hint = document.createElement('p');
+          hint.className = 'rc-hint';
+          hint.textContent = 'Semakin kecil = semakin cepat';
+          box.appendChild(hint);
+          addBtnRow(box, function () {
+            if (src) { src.value = range.value; src.dispatchEvent(new Event('input', { bubbles: true })); }
+            if (srcVal) srcVal.textContent = range.value;
+            if (typeof saveRunningText === 'function') saveRunningText();
+          });
+          setTimeout(function () { range.focus(); }, 60);
+        });
+      });
+  
+      /* ──────────── 4x : Background ──────────── */
+      R('41', 'Upload Gambar Background', function () {
+        triggerFileInput('upload-bg');
+      });
+  
+      R('42', 'Hapus Gambar Background', function () {
+        modalBgList();
+      });
+  
+      R('43', 'Durasi Slide Background', function () {
+        modalNumberInput('⏱ Durasi Slide (detik)', 2, 120, 'detik', function (val) {
+          var inp = document.getElementById('settings-bg-speed');
+          if (inp) inp.value = val;
+          rcToast('✅ Durasi diset: ' + val + ' detik');
+        });
+      });
+  
+      R('44', 'Pilih Transisi Background', function () {
+        modalOptionList('🎬 Transisi Background',
+          [
+            { key: 1, label: 'Fade', value: 'fade' },
+            { key: 2, label: 'Slide Kiri', value: 'slide-left' },
+            { key: 3, label: 'Slide Kanan', value: 'slide-right' },
+            { key: 4, label: 'Zoom In', value: 'zoom-in' },
+            { key: 5, label: 'Zoom Out', value: 'zoom-out' },
+            { key: 6, label: 'Flip', value: 'flip' }
+          ],
+          function () {
+            var sel = document.getElementById('settings-bg-transition');
+            return sel ? sel.value : null;
+          },
+          function (val) {
+            setSelectByValue('settings-bg-transition', val);
+            if (typeof saveBgSettings === 'function') saveBgSettings();
+            else rcToast('✅ Transisi: ' + val);
+          }
+        );
+      });
+  
+      /* ──────────── 5x : Audio ──────────── */
+      R('51', 'Daftar Audio Pre-Adzan', function () {
+        modalAudioList('🎵 Audio Pre-Adzan', 'audio-pre-adzan-list');
+      });
+      R('511', 'Upload Audio Pre-Adzan', function () {
+        triggerFileInput('upload-pre-adzan');
+      });
+      R('513', 'Pilih Sumber Audio Pre-Adzan', function () {
+        modalOptionList('🎚️ Sumber Audio Pre-Adzan', [
+          { label: 'File (Default/Upload)', value: 'default' },
+          { label: 'Link YouTube', value: 'link' }
+        ], function () {
+          var sel = document.getElementById('pre-adzan-source');
+          return sel ? sel.value : 'default';
+        }, function (val) {
+          setSelectByValue('pre-adzan-source', val);
+          if (typeof togglePreAdzanSource === 'function') {
+            togglePreAdzanSource(document.getElementById('pre-adzan-source'));
+          }
+        });
+      });
+
+      R('514', 'Link YouTube Pre-Adzan', function () {
+        var src = document.getElementById('pre-adzan-youtube-url');
+        modalTextInput('🔗 Link YouTube Pre-Adzan', false, 'https://youtube.com/watch?v=...', function (val) {
+          if (src) src.value = val;
+          if (typeof savePreAdzanYoutubeLink === 'function') savePreAdzanYoutubeLink();
+          else rcToast('⚠ savePreAdzanYoutubeLink() tidak ditemukan');
+        });
+      });
+  
+      R('52', 'Daftar Audio Adzan', function () {
+        modalAudioList('📢 Audio Adzan', 'audio-adzan-list');
+      });
+      R('521', 'Upload Audio Adzan', function () {
+        triggerFileInput('upload-adzan-settings');
+      });
+      R('522', 'Volume Adzan', function () {
+        modalVolume('🔈 Volume Adzan', 'vol-adzan-settings', 'vol-adzan-settings-val');
+      });
+  
+      R('53', 'Daftar Audio Alarm', function () {
+        modalAudioList('🔔 Audio Alarm', 'audio-alarm-list');
+      });
+      R('531', 'Upload Audio Alarm', function () {
+        triggerFileInput('upload-alarm');
+      });
+      R('532', 'Volume Alarm', function () {
+        modalVolume('🔈 Volume Alarm', 'vol-alarm', 'vol-alarm-val');
+      });
+  
+      /* ──────────── 6x : Papan Informasi ──────────── */
+      R('61', 'Toggle Papan Informasi', function () {
+        toggleCheckbox('toggle-papan', '✅ Papan Info aktif', '⛔ Papan Info nonaktif', function (checked) {
+          if (typeof togglePapanInfo === 'function') togglePapanInfo({ checked: checked });
+        });
+      });
+  
+      R('62', 'Edit Judul Pengumuman', function () {
+        var src = document.getElementById('papan-title-input');
+        openMiniModal('📋 Judul Pengumuman', function (box) {
+          var inp = document.createElement('input');
+          inp.className = 'rc-input';
+          inp.type = 'text';
+          inp.placeholder = 'Judul Pengumuman';
+          inp.value = src ? src.value : '';
+          box.appendChild(inp);
+          addBtnRow(box, function () {
+            if (src) src.value = inp.value;
+            if (typeof savePapanInfo === 'function') savePapanInfo();
+            else rcToast('⚠ savePapanInfo() tidak ditemukan');
+          });
+          inp.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter') { e.preventDefault(); if (src) src.value = inp.value; if (typeof savePapanInfo === 'function') savePapanInfo(); closeRcModal(); }
+          });
+        });
+      });
+  
+      R('63', 'Edit Deskripsi Pengumuman', function () {
+        var src = document.getElementById('papan-desc-input');
+        openMiniModal('📋 Deskripsi Pengumuman', function (box) {
+          var ta = document.createElement('textarea');
+          ta.className = 'rc-input';
+          ta.rows = 4;
+          ta.placeholder = 'Deskripsi...';
+          ta.value = src ? src.value : '';
+          box.appendChild(ta);
+          addBtnRow(box, function () {
+            if (src) src.value = ta.value;
+            if (typeof savePapanInfo === 'function') savePapanInfo();
+            else rcToast('⚠ savePapanInfo() tidak ditemukan');
+          });
+        });
+      });
+  
+      /* ──────────── 7x : Kajian ──────────── */
+      R('71', 'Toggle Mode Kajian', function () {
+        toggleCheckbox('toggle-kajian', '✅ Mode Kajian aktif', '⛔ Mode Kajian nonaktif', function (checked) {
+          if (typeof toggleKajian === 'function') toggleKajian({ checked: checked });
+        });
+      });
+  
+      R('72', 'Toggle Sembunyikan Card Adzan', function () {
+        toggleCheckbox('toggle-hide-cards', '✅ Card Adzan disembunyikan', '⛔ Card Adzan ditampilkan', function (checked) {
+          if (typeof toggleHideCards === 'function') toggleHideCards({ checked: checked });
+        });
+      });
+  
+      R('73', 'Upload Gambar Kajian', function () {
+        triggerFileInput('upload-kajian-img');
+      });
+  
+      R('74', 'Upload Video Kajian', function () {
+        triggerFileInput('upload-kajian-video');
+      });
+  
+      R('75', 'Input URL Stream Kajian', function () {
+        var src = document.getElementById('kajian-video-url');
+        openMiniModal('🔗 URL Video / Stream', function (box) {
+          var inp = document.createElement('input');
+          inp.className = 'rc-input';
+          inp.type = 'text';
+          inp.placeholder = 'https://youtube.com/watch?v=...';
+          inp.value = src ? src.value : '';
+          box.appendChild(inp);
+          var hint = document.createElement('p');
+          hint.className = 'rc-hint';
+          hint.textContent = 'YouTube, MP4, atau link stream langsung.';
+          box.appendChild(hint);
+          addBtnRow(box, function () {
+            if (src) src.value = inp.value;
+            if (typeof applyKajianUrl === 'function') applyKajianUrl();
+            else rcToast('⚠ applyKajianUrl() tidak ditemukan');
+          });
+          inp.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter') { e.preventDefault(); if (src) src.value = inp.value; if (typeof applyKajianUrl === 'function') applyKajianUrl(); closeRcModal(); }
+          });
+        });
+      });
+  
+      R('76', 'Input Nama Pemateri', function () {
+        var src = document.getElementById('kajian-pemateri');
+        openMiniModal('🎓 Nama Pemateri', function (box) {
+          var inp = document.createElement('input');
+          inp.className = 'rc-input';
+          inp.type = 'text';
+          inp.placeholder = 'Ustadz / Ustadzah ...';
+          inp.value = src ? src.value : '';
+          box.appendChild(inp);
+          addBtnRow(box, function () {
+            if (src) src.value = inp.value;
+            if (typeof saveKajian === 'function') saveKajian();
+            else rcToast('⚠ saveKajian() tidak ditemukan');
+          });
+          inp.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter') { e.preventDefault(); if (src) src.value = inp.value; if (typeof saveKajian === 'function') saveKajian(); closeRcModal(); }
+          });
+        });
+      });
+
+      R('731', 'Hapus Gambar Kajian', function () {
+        if (typeof clearKajianItem === 'function') { clearKajianItem('image'); rcToast('🗑️ Gambar Kajian dihapus'); }
+        else rcToast('⚠ clearKajianItem() tidak ditemukan');
+      });
+
+      R('741', 'Hapus Video Kajian', function () {
+        if (typeof clearKajianItem === 'function') { clearKajianItem('video'); rcToast('🗑️ Video Kajian dihapus'); }
+        else rcToast('⚠ clearKajianItem() tidak ditemukan');
+      });
+
+      R('751', 'Hapus URL Stream Kajian', function () {
+        if (typeof clearKajianItem === 'function') { clearKajianItem('url'); rcToast('🗑️ URL Stream Kajian dihapus'); }
+        else rcToast('⚠ clearKajianItem() tidak ditemukan');
+      });
+  
+      R('77', 'Delay Muncul Pemateri (detik)', function () {
+        var src = document.getElementById('kajian-pemateri-delay');
+        modalNumberInput('⏱ Delay Muncul Pemateri', 0, 300, 'detik', function (val) {
+          if (src) { src.value = val; src.dispatchEvent(new Event('change', { bubbles: true })); }
+          rcToast('✅ Delay: ' + val + ' detik');
+        });
+      });
+  
+      R('78', 'Durasi Tampil Pemateri (detik)', function () {
+        var src = document.getElementById('kajian-pemateri-duration');
+        modalNumberInput('⏱ Durasi Tampil Pemateri', 5, 600, 'detik', function (val) {
+          if (src) { src.value = val; src.dispatchEvent(new Event('change', { bubbles: true })); }
+          rcToast('✅ Durasi: ' + val + ' detik');
+        });
+      });
+  
+      R('79', 'Pilih Tema Ribbon', function () {
+        modalRibbonTema();
+      });
+  
+      R('710', 'Ukuran Font Pemateri', function () {
+        modalFontSize();
+      });
+  
+      /* ──────────── 8x : Live Kamera ──────────── */
+      R('811', 'Pilih Kamera 1', function () { openSelectPicker('camera-select-1'); });
+      R('812', 'Pilih Kamera 2', function () { openSelectPicker('camera-select-2'); });
+      R('813', 'Pilih Kamera 3', function () { openSelectPicker('camera-select-3'); });
+      R('814', 'Pilih Kamera 4', function () { openSelectPicker('camera-select-4'); });
+  
+      R('821', 'Mulai Kamera', function () {
+        if (typeof lgMulaiKamera === 'function') lgMulaiKamera();
+        else clickElement('btn-mulai-kamera');
+      });
+      R('822', 'Stop Kamera', function () {
+        var btn = document.getElementById('btn-mulai-kamera');
+        if (btn) btn.click();
+        else rcToast('⚠ Tombol kamera tidak ditemukan');
+      });
+      R('823', 'Toggle Rekam', function () {
+        if (typeof toggleRekam === 'function') toggleRekam();
+        else clickElement('btn-rekam');
+      });
+  
+      R('831', 'Switch Kamera 1', function () {
+        if (typeof lgSwitchKamera === 'function') lgSwitchKamera(1);
+        else clickElement('lg-sw-btn-1');
+      });
+      R('832', 'Switch Kamera 2', function () {
+        if (typeof lgSwitchKamera === 'function') lgSwitchKamera(2);
+        else clickElement('lg-sw-btn-2');
+      });
+      R('833', 'Switch Kamera 3', function () {
+        if (typeof lgSwitchKamera === 'function') lgSwitchKamera(3);
+        else clickElement('lg-sw-btn-3');
+      });
+      R('834', 'Switch Kamera 4', function () {
+        if (typeof lgSwitchKamera === 'function') lgSwitchKamera(4);
+        else clickElement('lg-sw-btn-4');
+      });
+  
+      R('841', 'Transisi Kamera: Statis', function () {
+        setSelectByValue('lg-transisi-select', 'static');
+        rcToast('✅ Transisi: Statis');
+      });
+      R('842', 'Transisi Kamera: Fade', function () {
+        setSelectByValue('lg-transisi-select', 'fade');
+        rcToast('✅ Transisi: Fade');
+      });
+  
+
+      /* ──────────── 808 : Pairing HP (Firebase) ──────────── */
+      R('808', 'Buka Panel Pairing HP', function () {
+        if (window.FirebaseRemoteBridge && typeof window.FirebaseRemoteBridge.openPairing === 'function') {
+          window.FirebaseRemoteBridge.openPairing();
+        } else {
+          rcToast('⚠ Fitur pairing belum siap, coba lagi sebentar');
+        }
+      });
+
+      /* ──────────── 9x : Donasi ──────────── */
+      R('91', 'Toggle Donasi', function () {
+        toggleCheckbox('toggle-donasi', '✅ Donasi aktif', '⛔ Donasi nonaktif', function (checked) {
+          if (typeof toggleDonasi === 'function') toggleDonasi({ checked: checked });
+        });
+      });
+  
+      R('92', 'Edit Judul Donasi', function () {
+        var src = document.getElementById('donasi-judul-input');
+        openMiniModal('💳 Judul Donasi', function (box) {
+          var inp = document.createElement('input');
+          inp.className = 'rc-input';
+          inp.type = 'text';
+          inp.placeholder = 'Contoh: Donasi Masjid';
+          inp.value = src ? src.value : '';
+          box.appendChild(inp);
+          addBtnRow(box, function () {
+            if (src) src.value = inp.value;
+            if (typeof saveDonasi === 'function') saveDonasi();
+            else rcToast('⚠ saveDonasi() tidak ditemukan');
+          });
+          inp.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter') { e.preventDefault(); if (src) src.value = inp.value; if (typeof saveDonasi === 'function') saveDonasi(); closeRcModal(); }
+          });
+        });
+      });
+  
+      R('93', 'Upload QR Code Donasi', function () {
+        triggerFileInput('donasi-qr-upload');
+      });
+  
+      R('94', 'Edit Deskripsi Donasi', function () {
+        var src = document.getElementById('donasi-desc-input');
+        openMiniModal('💳 Deskripsi Donasi', function (box) {
+          var ta = document.createElement('textarea');
+          ta.className = 'rc-input';
+          ta.rows = 3;
+          ta.placeholder = 'Contoh: BCA 1234567890 a.n. Masjid...';
+          ta.value = src ? src.value : '';
+          box.appendChild(ta);
+          addBtnRow(box, function () {
+            if (src) src.value = ta.value;
+            if (typeof saveDonasi === 'function') saveDonasi();
+            else rcToast('⚠ saveDonasi() tidak ditemukan');
+          });
+        });
+      });
+
+R('99', 'Toggle Fullscreen', function () {
+  if (window.AppFullscreen) window.AppFullscreen.toggle();
+});
+  
+      /* ──────────── 10x : Template & Tema ──────────── */
+      R('101', 'Template Default', function () {
+        if (typeof setTemplate === 'function') setTemplate('default');
+        else rcToast('⚠ setTemplate() tidak ditemukan');
+      });
+      R('102', 'Template Card Kiri', function () {
+        if (typeof setTemplate === 'function') setTemplate('cardkiri');
+        else rcToast('⚠ setTemplate() tidak ditemukan');
+      });
+      R('103', 'Template Card Atas', function () {
+        if (typeof setTemplate === 'function') setTemplate('cardatas');
+        else rcToast('⚠ setTemplate() tidak ditemukan');
+      });
+  
+      R('104', 'Pilih Tema Global', function () {
+        modalTemaGlobal();
+      });
+  
+      /* ──────────── 105x : Topbar ──────────── */
+      R('1051', 'Kustom Warna Topbar', function () {
+        modalSwatch('🎨 Warna Topbar', '[data-swatch-target="topbar-bg"] .color-swatches, .custom-theme-item:nth-child(1) .color-swatches', '--topbar-bg');
+      });
+  
+      R('1052', 'Opacity Topbar', function () {
+        modalOpacity('🔆 Opacity Topbar', '--topbar-opacity', null);
+      });
+  
+      /* ──────────── 106x : Card Waktu ──────────── */
+      R('1061', 'Kustom Warna Card Waktu', function () {
+        modalSwatch('🎨 Warna Card Waktu', '[data-swatch-target="cards-bg"] .color-swatches, .custom-theme-item:nth-child(2) .color-swatches', '--cards-bg');
+      });
+  
+      R('1062', 'Opacity Card Waktu', function () {
+        modalOpacity('🔆 Opacity Card Waktu', '--cards-bg-opacity', null);
+      });
+  
+      /* ──────────── 107x : Elemen Warna Lain ──────────── */
+      R('1071', 'Warna Card Aktif', function () {
+        modalSwatch('🎨 Warna Card Aktif', '.swatch-active-card .color-swatches, [data-swatch="card-active-bg"] .color-swatches', '--card-active-bg');
+      });
+  
+      R('1072', 'Warna Banner Hari Besar', function () {
+        modalSwatch('🎨 Warna Banner Hari Besar', '.swatch-banner .color-swatches, [data-swatch="banner-bg"] .color-swatches', '--banner-bg');
+      });
+  
+      R('1073', 'Warna Teks Running Text', function () {
+        modalSwatch('🎨 Warna Teks Running Text', '.swatch-rt .color-swatches, [data-swatch="rt-text"] .color-swatches', '--rt-text');
+      });
+  
+      R('1074', 'Warna Background Running Text', function () {
+        modalSwatch('🎨 BG Running Text', '.swatch-rt-bg .color-swatches, [data-swatch="rt-bg"] .color-swatches', '--rt-bg');
+      });
+  
+      R('1075', 'Opacity Background Running Text', function () {
+        modalOpacity('🔆 Opacity BG Running Text', '--rt-bg-opacity', null);
+      });
+  
+      R('1076', 'Warna Background Popup', function () {
+        modalSwatch('🎨 BG Popup', '.swatch-popup .color-swatches, [data-swatch="popup-bg"] .color-swatches', '--popup-bg');
+      });
+  
+      R('1077', 'Opacity Background Popup', function () {
+        modalOpacity('🔆 Opacity BG Popup', '--popup-bg-opacity', null);
+      });
+  
+      R('1078', 'Warna Background Modal', function () {
+        modalSwatch('🎨 Warna Background Modal', '.swatch-modal .color-swatches, [data-swatch="modal-bg"] .color-swatches', '--modal-bg');
+      });
+
+      /* ──────────── 109x : Posisi & Ukuran Popup Notifikasi ──────────── */
+      R('1091', 'Posisi Popup: Kiri', function () {
+        if (typeof setPopupPosition === 'function') setPopupPosition('left');
+      });
+      R('1092', 'Posisi Popup: Tengah', function () {
+        if (typeof setPopupPosition === 'function') setPopupPosition('center');
+      });
+      R('1093', 'Posisi Popup: Kanan', function () {
+        if (typeof setPopupPosition === 'function') setPopupPosition('right');
+      });
+      R('1094', 'Ukuran Kotak Popup (%)', function () {
+        var cur = (window.S && S.popupScale) ? S.popupScale : 100;
+        modalNumberInput('📐 Ukuran Kotak Popup (%)', 50, 200, '%', function (val) {
+          if (typeof commitPopupScale === 'function') commitPopupScale(val);
+        });
+      });
+      R('1095', 'Pratinjau Popup Notifikasi', function () {
+        if (typeof previewPopupDemo === 'function') previewPopupDemo();
+      });
+      R('1096', 'Ukuran Font Universal (%)', function () {
+        modalNumberInput('\uD83D\uDD24 Ukuran Font Universal (%)', 50, 200, '%', function (val) {
+          if (typeof commitGlobalFontScale === 'function') commitGlobalFontScale(val);
+        });
+      });
+
+      /* ──────────── 12x : Lainnya ──────────── */
+      R('121', 'Toggle Mode Adzan', function () {
+        toggleCheckbox('toggle-adzan-mode', '✅ Mode Adzan aktif', '⛔ Mode Adzan nonaktif', function (checked) {
+          if (typeof toggleAdzanMode === 'function') toggleAdzanMode({ checked: checked });
+        });
+      });
+
+      R('122', 'Toggle Kas Masjid & Ayat/Hadits', function () {
+        toggleCheckbox('toggle-kas-ayat', '✅ Kas Masjid & Ayat/Hadits aktif', '⛔ Kas Masjid & Ayat/Hadits nonaktif', function (checked) {
+          if (typeof toggleKasAyat === 'function') toggleKasAyat({ checked: checked });
+        });
+      });
+
+      R('123', 'Tampilan Kas Masjid (Minggu/Bulan)', function () {
+        modalOptionList('📊 Tampilan Kas Masjid', [
+          { label: 'Minggu Ini', value: 'minggu' },
+          { label: 'Bulan Ini', value: 'bulan' }
+        ], function () {
+          var sel = document.getElementById('kas-view-mode');
+          return sel ? sel.value : 'minggu';
+        }, function (val) {
+          setSelectByValue('kas-view-mode', val);
+          if (typeof setKasViewMode === 'function') setKasViewMode(val);
+        });
+      });
+
+      R('124', 'Durasi Animasi Kas Masjid \u2192 Ayat/Hadits', function () {
+        modalNumberInput('\u23F1 Durasi Kas Masjid \u2192 Ayat/Hadits', 3, 30, 'detik', function (val) {
+          var slider = document.getElementById('ka-duration-slider');
+          if (slider) slider.value = val;
+          var label = document.getElementById('ka-duration-val');
+          if (label) label.textContent = val;
+          if (typeof setKaRotationDuration === 'function') setKaRotationDuration(val);
+        });
+      });
+
+      R('125', 'Toggle Video Sebelum Adzan', function () {
+        toggleCheckbox('toggle-video-before', '✅ Video Sebelum Adzan aktif', '⛔ Video Sebelum Adzan nonaktif', function (checked) {
+          if (typeof toggleVideoBefore === 'function') toggleVideoBefore({ checked: checked });
+        });
+      });
+
+      R('126', 'Pilih Sumber Video Sebelum Adzan', function () {
+        modalOptionList('🎬 Sumber Video Sebelum Adzan', [
+          { label: 'Upload Video', value: 'upload' },
+          { label: 'Link YouTube', value: 'youtube' }
+        ], function () {
+          var sel = document.getElementById('video-before-source');
+          return sel ? sel.value : 'upload';
+        }, function (val) {
+          setSelectByValue('video-before-source', val);
+          if (typeof setVideoBeforeSource === 'function') setVideoBeforeSource(val);
+        });
+      });
+
+      R('127', 'Upload Video Sebelum Adzan', function () {
+        triggerFileInput('upload-video-before');
+      });
+
+      R('128', 'Link YouTube Video Sebelum Adzan', function () {
+        var src = document.getElementById('video-before-youtube-url');
+        modalTextInput('🔗 Link YouTube Video Sebelum Adzan', false, 'https://youtube.com/watch?v=...', function (val) {
+          if (src) src.value = val;
+          if (typeof saveVideoBeforeYoutube === 'function') saveVideoBeforeYoutube();
+          else rcToast('⚠ saveVideoBeforeYoutube() tidak ditemukan');
+        });
+      });
+
+      /* ──────────── 13x : Pengaturan Masjid ──────────── */
+      R('131', 'Edit Nama Masjid', function () {
+        var src = document.getElementById('input-masjid-name');
+        modalTextInput('🕌 Nama Masjid', false, 'Nama Masjid', function (val) {
+          if (src) src.value = val;
+          if (typeof saveMasjid === 'function') saveMasjid();
+          else rcToast('⚠ saveMasjid() tidak ditemukan');
+        });
+      });
+
+      R('132', 'Edit Kota/Lokasi Masjid', function () {
+        var src = document.getElementById('input-masjid-location');
+        modalTextInput('📍 Kota/Lokasi', false, 'Kota', function (val) {
+          if (src) src.value = val;
+          if (typeof saveMasjid === 'function') saveMasjid();
+          else rcToast('⚠ saveMasjid() tidak ditemukan');
+        });
+      });
+
+      R('133', 'Pilih Kota (API Waktu Shalat)', function () {
+        var sel = document.getElementById('input-city-api');
+        if (!sel) { rcToast('⚠ Elemen kota tidak ditemukan'); return; }
+        var handler = function () {
+          sel.removeEventListener('change', handler);
+          if (typeof saveMasjid === 'function') saveMasjid();
+        };
+        sel.addEventListener('change', handler);
+        openSelectPicker('input-city-api');
+      });
+
+      /* ──────────── 14x & 15x : Buka Modal Langsung ──────────── */
+      R('141', 'Buka Hari Besar Islam', function () {
+        if (typeof openEventModal === 'function') openEventModal();
+        else rcToast('⚠ openEventModal() tidak ditemukan');
+      });
+
+      R('151', 'Buka Mode Muadzin', function () {
+        if (typeof openMuadzinModal === 'function') openMuadzinModal();
+        else rcToast('⚠ openMuadzinModal() tidak ditemukan');
+      });
+
+      R('152', 'Buka Menu Tentang', function () {
+        if (typeof openSettings === 'function') openSettings();
+        setTimeout(function () {
+          if (typeof toggleSection === 'function') toggleSection('sec-tentang');
+          var el = document.getElementById('sec-tentang');
+          if (el && el.scrollIntoView) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 300);
+      });
+
+      console.log('[RemoteCodes] Semua kode terdaftar.');
+    }
+  
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', register);
+    } else {
+      register();
+    }
+  
+  })();
